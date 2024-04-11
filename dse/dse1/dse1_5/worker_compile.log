@@ -1,0 +1,1239 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Shell
+Info: Command: quartus_sh --flow compile PSX.qsf
+Info: Quartus(args): compile PSX.qsf
+Info: Project Name = C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/PSX
+Info: Revision Name = PSX
+{"object_type": "report_status", "percent" : 0}
+Info: *******************************************************************
+Info: Running Quartus Prime Shell
+Info: Command: quartus_sh -t sys/build_id.tcl compile PSX PSX
+Info: Quartus(args): compile PSX PSX
+Info: Generated: C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/build_id.v: `define BUILD_DATE "240411"
+Info: Evaluation of Tcl script sys/build_id.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+{"object_type": "report_status", "percent" : 16}
+{"object_type": "report_status", "percent" : 16}
+Info: *******************************************************************
+Info: Running Quartus Prime SignalTap II
+Info: Command: quartus_stp PSX -c PSX
+Info: Quartus Prime SignalTap II was successful. 0 errors, 0 warnings
+{"object_type": "report_status", "percent" : 33}
+{"object_type": "report_status", "percent" : 33}
+{"object_type": "report_status", "percent" : 34}
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+Info: Command: quartus_map --read_settings_files=off --write_settings_files=off PSX -c PSX
+Info: Aggressive Performance optimization mode selected -- timing performance will be prioritized at the potential cost of increased logic area and compilation time
+{"object_type": "refresh_report"}
+Info: Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info: Found 1 design units, including 1 entities, in source file rtl/pll.v
+Info: Found 1 design units, including 1 entities, in source file rtl/pll/pll_0002.v
+Info: Found 1 design units, including 1 entities, in source file sys/pll_hdmi.v
+Info: Found 1 design units, including 1 entities, in source file sys/pll_hdmi/pll_hdmi_0002.v
+Info: Found 1 design units, including 1 entities, in source file sys/pll_audio.v
+Info: Found 1 design units, including 1 entities, in source file sys/pll_audio/pll_audio_0002.v
+Info: Found 1 design units, including 1 entities, in source file sys/pll_cfg/pll_cfg.v
+Info: Verilog HDL Declaration information at pll_cfg_hdmi.v(91): object "LOCKED" differs only in case from object "locked" in the same scope
+Info: Found 1 design units, including 1 entities, in source file sys/pll_cfg/pll_cfg_hdmi.v
+Info: Found 1 design units, including 1 entities, in source file sys/pll_cfg/altera_pll_reconfig_top.v
+Info: Verilog HDL Declaration information at altera_pll_reconfig_core.v(112): object "LOCKED" differs only in case from object "locked" in the same scope
+Info: Verilog HDL Declaration information at altera_pll_reconfig_core.v(1901): object "dps_done" differs only in case from object "DPS_DONE" in the same scope
+Info: Verilog HDL Declaration information at altera_pll_reconfig_core.v(1893): object "dps_changed" differs only in case from object "DPS_CHANGED" in the same scope
+Info: Found 6 design units, including 6 entities, in source file sys/pll_cfg/altera_pll_reconfig_core.v
+Info: Verilog HDL Declaration information at sys_top.v(93): object "BTN_USER" differs only in case from object "btn_user" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(94): object "BTN_OSD" differs only in case from object "btn_osd" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(322): object "ARX" differs only in case from object "arx" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(322): object "ARY" differs only in case from object "ary" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(38): object "HDMI_TX_CLK" differs only in case from object "hdmi_tx_clk" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(1307): object "vga_tx_clk" differs only in case from object "VGA_TX_CLK" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(75): object "VGA_HS" differs only in case from object "vga_hs" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(76): object "VGA_VS" differs only in case from object "vga_vs" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(72): object "VGA_R" differs only in case from object "vga_r" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(73): object "VGA_G" differs only in case from object "vga_g" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(74): object "VGA_B" differs only in case from object "vga_b" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(80): object "AUDIO_L" differs only in case from object "audio_l" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(81): object "AUDIO_R" differs only in case from object "audio_r" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(90): object "LED_USER" differs only in case from object "led_user" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(92): object "LED_POWER" differs only in case from object "led_power" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(810): object "FB_EN" differs only in case from object "fb_en" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(811): object "FB_FMT" differs only in case from object "fb_fmt" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(812): object "FB_WIDTH" differs only in case from object "fb_width" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(813): object "FB_HEIGHT" differs only in case from object "fb_height" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(814): object "FB_BASE" differs only in case from object "fb_base" in the same scope
+Info: Verilog HDL Declaration information at sys_top.v(815): object "FB_STRIDE" differs only in case from object "fb_stride" in the same scope
+Info: Found 3 design units, including 3 entities, in source file sys/sys_top.v
+Info: Found 2 design units, including 1 entities, in source file sys/ascal.vhd
+Info: Found 2 design units, including 1 entities, in source file sys/pll_hdmi_adj.vhd
+Info: Found 3 design units, including 3 entities, in source file sys/math.sv
+Info: Verilog HDL Declaration information at hq2x.sv(304): object "A" differs only in case from object "a" in the same scope
+Info: Verilog HDL Declaration information at hq2x.sv(305): object "B" differs only in case from object "b" in the same scope
+Info: Verilog HDL Declaration information at hq2x.sv(306): object "D" differs only in case from object "d" in the same scope
+Info: Verilog HDL Declaration information at hq2x.sv(303): object "E" differs only in case from object "e" in the same scope
+Info: Verilog HDL Declaration information at hq2x.sv(308): object "H" differs only in case from object "h" in the same scope
+Info: Verilog HDL Declaration information at hq2x.sv(307): object "F" differs only in case from object "f" in the same scope
+Info: Found 5 design units, including 5 entities, in source file sys/hq2x.sv
+Info: Verilog HDL Declaration information at scandoubler.v(26): object "hq2x" differs only in case from object "Hq2x" in the same scope
+Info: Found 1 design units, including 1 entities, in source file sys/scandoubler.v
+Info: Found 1 design units, including 1 entities, in source file sys/scanlines.v
+Info: Found 1 design units, including 1 entities, in source file sys/shadowmask.sv
+Info: Found 2 design units, including 2 entities, in source file sys/video_cleaner.sv
+Info: Found 2 design units, including 2 entities, in source file sys/gamma_corr.sv
+Warning: Verilog HDL or VHDL warning at sys/video_mixer.sv(17): MESSAGE_ON or MESSAGE_OFF directive cannot process the non-HDL message ID 12161.
+Info: Found 1 design units, including 1 entities, in source file sys/video_mixer.sv
+Info: Verilog HDL Declaration information at video_freak.sv(33): object "SCALE" differs only in case from object "scale" in the same scope
+Warning: Verilog HDL information at video_freak.sv(173): always construct contains both blocking and non-blocking assignments
+Info: Found 2 design units, including 2 entities, in source file sys/video_freak.sv
+Info: Found 2 design units, including 2 entities, in source file sys/video_freezer.sv
+Info: Verilog HDL Declaration information at arcade_video.v(31): object "clk_video" differs only in case from object "CLK_VIDEO" in the same scope
+Info: Verilog HDL Declaration information at arcade_video.v(180): object "FB_EN" differs only in case from object "fb_en" in the same scope
+Info: Found 2 design units, including 2 entities, in source file sys/arcade_video.v
+Info: Found 1 design units, including 1 entities, in source file sys/osd.v
+Info: Found 1 design units, including 1 entities, in source file sys/vga_out.sv
+Info: Verilog HDL Declaration information at yc_out.sv(72): object "C" differs only in case from object "c" in the same scope
+Info: Found 1 design units, including 1 entities, in source file sys/yc_out.sv
+Info: Found 1 design units, including 1 entities, in source file sys/i2c.v
+Info: Found 1 design units, including 1 entities, in source file sys/alsa.sv
+Info: Found 1 design units, including 1 entities, in source file sys/i2s.v
+Info: Found 1 design units, including 1 entities, in source file sys/spdif.v
+Info: Found 2 design units, including 2 entities, in source file sys/audio_out.v
+Info: Found 3 design units, including 3 entities, in source file sys/iir_filter.v
+Info: Found 2 design units, including 2 entities, in source file sys/ltc2308.sv
+Info: Found 1 design units, including 1 entities, in source file sys/sigma_delta_dac.v
+Info: Found 1 design units, including 1 entities, in source file sys/mt32pi.sv
+Info: Found 1 design units, including 1 entities, in source file sys/mcp23009.sv
+Info: Found 1 design units, including 1 entities, in source file sys/f2sdram_safe_terminator.sv
+Info: Found 1 design units, including 1 entities, in source file sys/ddr_svc.sv
+Info: Found 2 design units, including 2 entities, in source file sys/sysmem.sv
+Info: Found 1 design units, including 1 entities, in source file sys/sd_card.sv
+Info: Found 4 design units, including 4 entities, in source file sys/hps_io.sv
+Info: Found 6 design units, including 3 entities, in source file rtl/dpram.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/rammlab.vhd
+Info: Found 3 design units, including 1 entities, in source file rtl/export.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/divider.vhd
+Info: Found 1 design units, including 0 entities, in source file rtl/pgpu.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/mul32u.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/mul9s.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/cheats.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_fillvram.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_cpu2vram.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_vram2vram.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_vram2cpu.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_line.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_rect.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_poly.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_pixelpipeline.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_overlay.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_dither.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_videoout_async.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_videoout_sync.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_crosshair.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/justifier_sensor.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu_videoout.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gpu.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/irq.vhd
+Info: Found 1 design units, including 0 entities, in source file rtl/pjoypad.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/joypad_pad.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/joypad_mem.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/joypad.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/timer.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/dma.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/exp2.vhd
+Info: Found 1 design units, including 0 entities, in source file rtl/pgte.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gte_mac0.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gte_mac123.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gte_unrdivide.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/gte.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/mdec.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/cd_xa_zigzag.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/cd_xa.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/cd_top.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/memctrl.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/sio.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/spu_ram.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/spu_gauss.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/spu.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/datacache.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/cpu.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/memorymux.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/memcard.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/statemanager.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/savestates.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/psx_top.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/psx_mister.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/syncfifo.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/syncfifofallthrough.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/syncfifofallthroughmlab.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/syncram.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/syncramdual.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/syncramdualnotpow2.vhd
+Info: Found 2 design units, including 1 entities, in source file rtl/syncramdualbyteenable.vhd
+Info: Found 1 design units, including 1 entities, in source file rtl/pll2.v
+Info: Found 1 design units, including 1 entities, in source file rtl/pll2/pll2_0002.v
+Warning: Verilog HDL warning at sdram.sv(304): extended using "x" or "z"
+Info: Found 1 design units, including 1 entities, in source file rtl/sdram.sv
+Info: Found 1 design units, including 1 entities, in source file rtl/ddram.sv
+Info: Found 1 design units, including 1 entities, in source file rtl/savestate_ui.sv
+Info: Found 1 design units, including 1 entities, in source file rtl/hps_ext.v
+Warning: Verilog HDL information at PSX.sv(691): always construct contains both blocking and non-blocking assignments
+Info: Verilog HDL Declaration information at PSX.sv(104): object "BUTTONS" differs only in case from object "buttons" in the same scope
+Info: Verilog HDL Declaration information at PSX.sv(30): object "RESET" differs only in case from object "reset" in the same scope
+Info: Found 1 design units, including 1 entities, in source file psx.sv
+{"object_type": "report_status", "percent" : 34}
+{"object_type": "report_status", "percent" : 35}
+{"object_type": "report_status", "percent" : 35}
+Info: Elaborating entity "sys_top" for the top level hierarchy
+Info: Elaborating entity "mcp23009" for hierarchy "mcp23009:mcp23009"
+Info: Elaborating entity "i2c" for hierarchy "mcp23009:mcp23009|i2c:i2c"
+Info: Elaborating entity "sysmem_lite" for hierarchy "sysmem_lite:sysmem"
+Info: Elaborating entity "f2sdram_safe_terminator" for hierarchy "sysmem_lite:sysmem|f2sdram_safe_terminator:f2sdram_safe_terminator_ram1"
+Info: Elaborating entity "f2sdram_safe_terminator" for hierarchy "sysmem_lite:sysmem|f2sdram_safe_terminator:f2sdram_safe_terminator_vbuf"
+Info: Elaborating entity "sysmem_HPS_fpga_interfaces" for hierarchy "sysmem_lite:sysmem|sysmem_HPS_fpga_interfaces:fpga_interfaces"
+Info: Elaborating entity "ddr_svc" for hierarchy "ddr_svc:ddr_svc"
+Info: Elaborating entity "ascal" for hierarchy "ascal:ascal"
+Info: Inferred 5 megafunctions from design logic
+Info: Elaborating entity "altsyncram" for hierarchy "ascal:ascal|altsyncram:i_mem[0].r[7]__1"
+Info: Elaborated megafunction instantiation "ascal:ascal|altsyncram:i_mem[0].r[7]__1"
+Info: Instantiated megafunction "ascal:ascal|altsyncram:i_mem[0].r[7]__1" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_89q1.tdf
+Info: Elaborating entity "altsyncram_89q1" for hierarchy "ascal:ascal|altsyncram:i_mem[0].r[7]__1|altsyncram_89q1:auto_generated"
+Info: Elaborating entity "altsyncram" for hierarchy "ascal:ascal|altsyncram:o_line0[0].r[7]__2"
+Info: Elaborated megafunction instantiation "ascal:ascal|altsyncram:o_line0[0].r[7]__2"
+Info: Instantiated megafunction "ascal:ascal|altsyncram:o_line0[0].r[7]__2" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ccn1.tdf
+Info: Elaborating entity "altsyncram_ccn1" for hierarchy "ascal:ascal|altsyncram:o_line0[0].r[7]__2|altsyncram_ccn1:auto_generated"
+Info: Elaborating entity "sys_umuldiv" for hierarchy "sys_umuldiv:ar_muldiv"
+Info: Elaborating entity "sys_umul" for hierarchy "sys_umuldiv:ar_muldiv|sys_umul:umul"
+Info: Elaborating entity "sys_udiv" for hierarchy "sys_umuldiv:ar_muldiv|sys_udiv:udiv"
+Info: Elaborating entity "pll_hdmi_adj" for hierarchy "pll_hdmi_adj:pll_hdmi_adj"
+Info: Elaborating entity "pll_hdmi" for hierarchy "pll_hdmi:pll_hdmi"
+Info: Elaborating entity "pll_hdmi_0002" for hierarchy "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst"
+Info: Elaborating entity "altera_pll" for hierarchy "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i"
+Warning: Output port "lvds_clk" at altera_pll.v(320) has no driver
+Warning: Output port "loaden" at altera_pll.v(321) has no driver
+Warning: Output port "extclk_out" at altera_pll.v(322) has no driver
+Info: Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
+Info: Elaborated megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i"
+Info: Instantiated megafunction "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i" with the following parameter:
+Info: Elaborating entity "dps_extra_kick" for hierarchy "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|dps_extra_kick:dps_extra_inst"
+Info: Elaborated megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|dps_extra_kick:dps_extra_inst", which is child of megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i"
+Info: Elaborating entity "dprio_init" for hierarchy "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|dprio_init:dprio_init_inst"
+Info: Elaborated megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|dprio_init:dprio_init_inst", which is child of megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i"
+Info: Elaborating entity "altera_pll_dps_lcell_comb" for hierarchy "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_0"
+Info: Elaborated megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_0", which is child of megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i"
+Info: Elaborating entity "altera_pll_dps_lcell_comb" for hierarchy "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_1"
+Info: Elaborated megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_1", which is child of megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i"
+Info: Elaborating entity "altera_pll_dps_lcell_comb" for hierarchy "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_2"
+Info: Elaborated megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_2", which is child of megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i"
+Info: Elaborating entity "altera_pll_dps_lcell_comb" for hierarchy "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_3"
+Info: Elaborated megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_3", which is child of megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i"
+Info: Elaborating entity "altera_pll_dps_lcell_comb" for hierarchy "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_4"
+Info: Elaborated megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_4", which is child of megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i"
+Info: Elaborating entity "altera_cyclonev_pll" for hierarchy "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll"
+Warning: Output port "extclk" at altera_cyclonev_pll.v(632) has no driver
+Warning: Output port "clkout[0]" at altera_cyclonev_pll.v(637) has no driver
+Warning: Output port "loaden" at altera_cyclonev_pll.v(641) has no driver
+Warning: Output port "lvdsclk" at altera_cyclonev_pll.v(642) has no driver
+Info: Elaborated megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll", which is child of megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i"
+Info: Elaborating entity "altera_cyclonev_pll_base" for hierarchy "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll|altera_cyclonev_pll_base:fpll_0"
+Info: Elaborated megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll|altera_cyclonev_pll_base:fpll_0", which is child of megafunction instantiation "pll_hdmi:pll_hdmi|pll_hdmi_0002:pll_hdmi_inst|altera_pll:altera_pll_i"
+Info: Elaborating entity "pll_cfg_hdmi" for hierarchy "pll_cfg_hdmi:pll_cfg_hdmi"
+Info: Elaborating entity "altera_std_synchronizer" for hierarchy "pll_cfg_hdmi:pll_cfg_hdmi|altera_std_synchronizer:altera_std_synchronizer_inst"
+Info: Elaborated megafunction instantiation "pll_cfg_hdmi:pll_cfg_hdmi|altera_std_synchronizer:altera_std_synchronizer_inst"
+Info: Instantiated megafunction "pll_cfg_hdmi:pll_cfg_hdmi|altera_std_synchronizer:altera_std_synchronizer_inst" with the following parameter:
+Info: Elaborating entity "dyn_phase_shift" for hierarchy "pll_cfg_hdmi:pll_cfg_hdmi|dyn_phase_shift:dyn_phase_shift_inst"
+Info: Elaborating entity "generic_lcell_comb" for hierarchy "pll_cfg_hdmi:pll_cfg_hdmi|dyn_phase_shift:dyn_phase_shift_inst|generic_lcell_comb:lcell_cnt_sel_0"
+Info: Elaborating entity "generic_lcell_comb" for hierarchy "pll_cfg_hdmi:pll_cfg_hdmi|dyn_phase_shift:dyn_phase_shift_inst|generic_lcell_comb:lcell_cnt_sel_1"
+Info: Elaborating entity "generic_lcell_comb" for hierarchy "pll_cfg_hdmi:pll_cfg_hdmi|dyn_phase_shift:dyn_phase_shift_inst|generic_lcell_comb:lcell_cnt_sel_2"
+Info: Elaborating entity "generic_lcell_comb" for hierarchy "pll_cfg_hdmi:pll_cfg_hdmi|dyn_phase_shift:dyn_phase_shift_inst|generic_lcell_comb:lcell_cnt_sel_3"
+Info: Elaborating entity "generic_lcell_comb" for hierarchy "pll_cfg_hdmi:pll_cfg_hdmi|dyn_phase_shift:dyn_phase_shift_inst|generic_lcell_comb:lcell_cnt_sel_4"
+Info: Elaborating entity "self_reset" for hierarchy "pll_cfg_hdmi:pll_cfg_hdmi|self_reset:self_reset_inst"
+Info: Elaborating entity "dprio_mux" for hierarchy "pll_cfg_hdmi:pll_cfg_hdmi|dprio_mux:dprio_mux_inst"
+Info: Elaborating entity "fpll_dprio_init" for hierarchy "pll_cfg_hdmi:pll_cfg_hdmi|fpll_dprio_init:fpll_dprio_init_inst"
+Info: Elaborating entity "shadowmask" for hierarchy "shadowmask:HDMI_shadowmask"
+Info: Elaborating entity "osd" for hierarchy "osd:hdmi_osd"
+Info: Elaborating entity "csync" for hierarchy "csync:csync_hdmi"
+Info: Elaborating entity "altddio_out" for hierarchy "altddio_out:hdmiclk_ddr"
+Info: Elaborated megafunction instantiation "altddio_out:hdmiclk_ddr"
+Info: Instantiated megafunction "altddio_out:hdmiclk_ddr" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/ddio_out_b2j.tdf
+Info: Elaborating entity "ddio_out_b2j" for hierarchy "altddio_out:hdmiclk_ddr|ddio_out_b2j:auto_generated"
+Info: Elaborating entity "altddio_out" for hierarchy "altddio_out:vgaclk_ddr"
+Info: Elaborated megafunction instantiation "altddio_out:vgaclk_ddr"
+Info: Instantiated megafunction "altddio_out:vgaclk_ddr" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/ddio_out_1oj.tdf
+Info: Elaborating entity "ddio_out_1oj" for hierarchy "altddio_out:vgaclk_ddr|ddio_out_1oj:auto_generated"
+Info: Elaborating entity "scanlines" for hierarchy "scanlines:VGA_scanlines"
+Info: Elaborating entity "yc_out" for hierarchy "yc_out:yc_out"
+Info: Elaborating entity "vga_out" for hierarchy "vga_out:vga_scaler_out"
+Info: Elaborating entity "pll_audio" for hierarchy "pll_audio:pll_audio"
+Info: Elaborating entity "pll_audio_0002" for hierarchy "pll_audio:pll_audio|pll_audio_0002:pll_audio_inst"
+Info: Elaborating entity "altera_pll" for hierarchy "pll_audio:pll_audio|pll_audio_0002:pll_audio_inst|altera_pll:altera_pll_i"
+Info: Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
+Info: Elaborated megafunction instantiation "pll_audio:pll_audio|pll_audio_0002:pll_audio_inst|altera_pll:altera_pll_i"
+Info: Instantiated megafunction "pll_audio:pll_audio|pll_audio_0002:pll_audio_inst|altera_pll:altera_pll_i" with the following parameter:
+Info: Elaborating entity "audio_out" for hierarchy "audio_out:audio_out"
+Info: Elaborating entity "i2s" for hierarchy "audio_out:audio_out|i2s:i2s"
+Info: Elaborating entity "spdif" for hierarchy "audio_out:audio_out|spdif:toslink"
+Info: Elaborating entity "sigma_delta_dac" for hierarchy "audio_out:audio_out|sigma_delta_dac:sd_l"
+Info: Elaborating entity "IIR_filter" for hierarchy "audio_out:audio_out|IIR_filter:IIR_filter"
+Info: Elaborating entity "iir_filter_tap" for hierarchy "audio_out:audio_out|IIR_filter:IIR_filter|iir_filter_tap:iir_tap_0"
+Info: Elaborating entity "DC_blocker" for hierarchy "audio_out:audio_out|DC_blocker:dcb_l"
+Info: Elaborating entity "aud_mix_top" for hierarchy "audio_out:audio_out|aud_mix_top:audmix_l"
+Info: Elaborating entity "sync_fix" for hierarchy "sync_fix:sync_v"
+Info: Elaborating entity "emu" for hierarchy "emu:emu"
+Info: Elaborating entity "pll" for hierarchy "emu:emu|pll:pll"
+Info: Elaborating entity "pll_0002" for hierarchy "emu:emu|pll:pll|pll_0002:pll_inst"
+Info: Elaborating entity "altera_pll" for hierarchy "emu:emu|pll:pll|pll_0002:pll_inst|altera_pll:altera_pll_i"
+Info: Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
+Info: Elaborated megafunction instantiation "emu:emu|pll:pll|pll_0002:pll_inst|altera_pll:altera_pll_i"
+Info: Instantiated megafunction "emu:emu|pll:pll|pll_0002:pll_inst|altera_pll:altera_pll_i" with the following parameter:
+Info: Elaborating entity "pll2" for hierarchy "emu:emu|pll2:pll2"
+Info: Elaborating entity "pll2_0002" for hierarchy "emu:emu|pll2:pll2|pll2_0002:pll2_inst"
+Info: Elaborating entity "altera_pll" for hierarchy "emu:emu|pll2:pll2|pll2_0002:pll2_inst|altera_pll:altera_pll_i"
+Warning: Output port "lvds_clk" at altera_pll.v(320) has no driver
+Warning: Output port "loaden" at altera_pll.v(321) has no driver
+Warning: Output port "extclk_out" at altera_pll.v(322) has no driver
+Info: Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
+Info: Elaborated megafunction instantiation "emu:emu|pll2:pll2|pll2_0002:pll2_inst|altera_pll:altera_pll_i"
+Info: Instantiated megafunction "emu:emu|pll2:pll2|pll2_0002:pll2_inst|altera_pll:altera_pll_i" with the following parameter:
+Info: Elaborating entity "altera_cyclonev_pll" for hierarchy "emu:emu|pll2:pll2|pll2_0002:pll2_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll"
+Warning: Output port "extclk" at altera_cyclonev_pll.v(632) has no driver
+Warning: Output port "clkout[0]" at altera_cyclonev_pll.v(637) has no driver
+Warning: Output port "loaden" at altera_cyclonev_pll.v(641) has no driver
+Warning: Output port "lvdsclk" at altera_cyclonev_pll.v(642) has no driver
+Info: Elaborated megafunction instantiation "emu:emu|pll2:pll2|pll2_0002:pll2_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll", which is child of megafunction instantiation "emu:emu|pll2:pll2|pll2_0002:pll2_inst|altera_pll:altera_pll_i"
+Info: Elaborating entity "altera_cyclonev_pll_base" for hierarchy "emu:emu|pll2:pll2|pll2_0002:pll2_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll|altera_cyclonev_pll_base:fpll_0"
+Info: Elaborated megafunction instantiation "emu:emu|pll2:pll2|pll2_0002:pll2_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll|altera_cyclonev_pll_base:fpll_0", which is child of megafunction instantiation "emu:emu|pll2:pll2|pll2_0002:pll2_inst|altera_pll:altera_pll_i"
+Info: Elaborating entity "pll_cfg" for hierarchy "emu:emu|pll_cfg:pll_cfg"
+Info: Elaborating entity "altera_pll_reconfig_top" for hierarchy "emu:emu|pll_cfg:pll_cfg|altera_pll_reconfig_top:pll_cfg_inst"
+Info: Elaborating entity "altera_pll_reconfig_core" for hierarchy "emu:emu|pll_cfg:pll_cfg|altera_pll_reconfig_top:pll_cfg_inst|altera_pll_reconfig_core:NM28_reconfig.reconfig_core.altera_pll_reconfig_core_inst0"
+Warning: Verilog HDL or VHDL warning at altera_pll_reconfig_core.v(208): object "dps_start_assert" assigned a value but never read
+Warning: Verilog HDL Case Statement warning at altera_pll_reconfig_core.v(1510): incomplete case statement has no default case item
+Warning: Verilog HDL Case Statement warning at altera_pll_reconfig_core.v(1526): incomplete case statement has no default case item
+Info: Elaborating entity "hps_io" for hierarchy "emu:emu|hps_io:hps_io"
+Info: Verilog HDL Case Statement information at hps_io.sv(420): all case item expressions in this case statement are onehot
+Info: Verilog HDL Case Statement information at hps_io.sv(449): all case item expressions in this case statement are onehot
+Info: Elaborating entity "video_calc" for hierarchy "emu:emu|hps_io:hps_io|video_calc:video_calc"
+Info: Elaborating entity "confstr_rom" for hierarchy "emu:emu|hps_io:hps_io|confstr_rom:confstr_rom"
+Info: Elaborating entity "hps_ext" for hierarchy "emu:emu|hps_ext:hps_ext"
+Info: Elaborating entity "savestate_ui" for hierarchy "emu:emu|savestate_ui:savestate_ui"
+Info: Elaborating entity "psx_mister" for hierarchy "emu:emu|psx_mister:psx"
+Info: Elaborating entity "psx_top" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top"
+Info: Elaborating entity "memctrl" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|memctrl:imemctrl"
+Info: Elaborating entity "joypad" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|joypad:ijoypad"
+Info: Elaborating entity "joypad_pad" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|joypad:ijoypad|joypad_pad:ijoypad_pad"
+Info: Elaborating entity "joypad_mem" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|joypad:ijoypad|joypad_mem:ijoypad_mem1"
+Info: Elaborating entity "dpram_dif" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|joypad:ijoypad|joypad_mem:ijoypad_mem1|dpram_dif:iramSectorBuffer"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|joypad:ijoypad|joypad_mem:ijoypad_mem1|dpram_dif:iramSectorBuffer|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|joypad:ijoypad|joypad_mem:ijoypad_mem1|dpram_dif:iramSectorBuffer|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|joypad:ijoypad|joypad_mem:ijoypad_mem1|dpram_dif:iramSectorBuffer|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_j534.tdf
+Info: Elaborating entity "altsyncram_j534" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|joypad:ijoypad|joypad_mem:ijoypad_mem1|dpram_dif:iramSectorBuffer|altsyncram:altsyncram_component|altsyncram_j534:auto_generated"
+Info: Elaborating entity "cheats" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cheats:icheats"
+Info: Elaborating entity "SyncFifo" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cheats:icheats|SyncFifo:iSyncFifo"
+Info: Elaborating entity "sio" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|sio:isio"
+Info: Elaborating entity "irq" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|irq:iirq"
+Info: Elaborating entity "dma" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|dma:idma"
+Info: Elaborating entity "SyncFifo" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|dma:idma|SyncFifo:iDMAfifoIn"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|dma:idma|SyncFifoFallThrough:DMAfifoOut"
+Info: Elaborating entity "timer" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|timer:itimer"
+Info: Elaborating entity "cd_top" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|SyncFifoFallThrough:ififoData"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|SyncFifoFallThrough:ififoParam"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramSectorBuffer"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramSectorBuffer|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramSectorBuffer|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramSectorBuffer|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ud34.tdf
+Info: Elaborating entity "altsyncram_ud34" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramSectorBuffer|altsyncram:altsyncram_component|altsyncram_ud34:auto_generated"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramSectorBuffers"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramSectorBuffers|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramSectorBuffers|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramSectorBuffers|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ue34.tdf
+Info: Elaborating entity "altsyncram_ue34" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramSectorBuffers|altsyncram:altsyncram_component|altsyncram_ue34:auto_generated"
+Info: Elaborating entity "cd_xa" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa"
+Info: Elaborating entity "dpram_dif" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|dpram_dif:iRAmIN"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|dpram_dif:iRAmIN|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|dpram_dif:iRAmIN|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|dpram_dif:iRAmIN|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_vc34.tdf
+Info: Elaborating entity "altsyncram_vc34" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|dpram_dif:iRAmIN|altsyncram:altsyncram_component|altsyncram_vc34:auto_generated"
+Info: Elaborating entity "SyncFifo" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|SyncFifo:ififoADPCM_L"
+Info: Elaborating entity "cd_xa_zigzag" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|cd_xa_zigzag:icd_xa_zigzag"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|SyncFifoFallThrough:ififoOut"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramTrackInfos"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramTrackInfos|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramTrackInfos|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramTrackInfos|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_s834.tdf
+Info: Elaborating entity "altsyncram_s834" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|dpram:iramTrackInfos|altsyncram:altsyncram_component|altsyncram_s834:auto_generated"
+Info: Elaborating entity "gpu" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu"
+Info: Elaborating entity "SyncFifo" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|SyncFifo:iSyncFifo_IN"
+Info: Elaborating entity "gpu_fillVram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_fillVram:igpu_fillVram"
+Info: Elaborating entity "gpu_cpu2vram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_cpu2vram:igpu_cpu2vram"
+Info: Elaborating entity "gpu_vram2vram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_vram2vram:igpu_vram2vram"
+Info: Elaborating entity "gpu_vram2cpu" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_vram2cpu:igpu_vram2cpu"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_vram2cpu:igpu_vram2cpu|SyncFifoFallThrough:ififo"
+Info: Elaborating entity "gpu_line" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_line:igpu_line"
+Info: Elaborating entity "SyncFifo" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_line:igpu_line|SyncFifo:iFifoLines"
+Info: Elaborating entity "gpu_rect" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_rect:igpu_rect"
+Info: Elaborating entity "gpu_poly" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_poly:igpu_poly"
+Info: Elaborating entity "mul9s" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_poly:igpu_poly|mul9s:imul9s1"
+Info: Elaborating entity "mul32u" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_poly:igpu_poly|mul32u:imul32u"
+Info: Elaborating entity "gpu_pixelpipeline" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline"
+Info: Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "texcolor" into its bus
+Info: Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "colormults" into its bus
+Info: Elaborating entity "RamMLAB" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|RamMLAB:\gfiltermemmult:0:itagram"
+Info: Elaborating entity "altdpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|RamMLAB:\gfiltermemmult:0:itagram|altdpram:ialtdpram"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|RamMLAB:\gfiltermemmult:0:itagram|altdpram:ialtdpram"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|RamMLAB:\gfiltermemmult:0:itagram|altdpram:ialtdpram" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/dpram_5482.tdf
+Info: Elaborating entity "dpram_5482" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|RamMLAB:\gfiltermemmult:0:itagram|altdpram:ialtdpram|dpram_5482:auto_generated"
+Info: Found 1 design units, including 1 entities, in source file db/decode_dla.tdf
+Info: Elaborating entity "decode_dla" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|RamMLAB:\gfiltermemmult:0:itagram|altdpram:ialtdpram|dpram_5482:auto_generated|decode_dla:wr_decode"
+Info: Found 1 design units, including 1 entities, in source file db/mux_6hb.tdf
+Info: Elaborating entity "mux_6hb" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|RamMLAB:\gfiltermemmult:0:itagram|altdpram:ialtdpram|dpram_5482:auto_generated|mux_6hb:rd_mux"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|dpram:\gfiltermemmult:0:icache"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|dpram:\gfiltermemmult:0:icache|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|dpram:\gfiltermemmult:0:icache|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|dpram:\gfiltermemmult:0:icache|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_2934.tdf
+Info: Elaborating entity "altsyncram_2934" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|dpram:\gfiltermemmult:0:icache|altsyncram:altsyncram_component|altsyncram_2934:auto_generated"
+Info: Elaborating entity "dpram_dif" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|dpram_dif:\gfiltermemmult:0:iCLUTram"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|dpram_dif:\gfiltermemmult:0:iCLUTram|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|dpram_dif:\gfiltermemmult:0:iCLUTram|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|dpram_dif:\gfiltermemmult:0:iCLUTram|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_a734.tdf
+Info: Elaborating entity "altsyncram_a734" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_pixelpipeline:igpu_pixelpipeline|dpram_dif:\gfiltermemmult:0:iCLUTram|altsyncram:altsyncram_component|altsyncram_a734:auto_generated"
+Info: Elaborating entity "divider" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|divider:\gdividers:0:idivider"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|SyncFifoFallThrough:iSyncFifo_OUT"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|SyncFifoFallThrough:iSyncFifo_OUT2"
+Info: Elaborating entity "dpram_dif" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|dpram_dif:ilineram"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|dpram_dif:ilineram|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|dpram_dif:ilineram|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|dpram_dif:ilineram|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ib34.tdf
+Info: Elaborating entity "altsyncram_ib34" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|dpram_dif:ilineram|altsyncram:altsyncram_component|altsyncram_ib34:auto_generated"
+Info: Elaborating entity "gpu_videoout" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout"
+Info: Elaborating entity "gpu_videoout_sync" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_videoout_sync:igpu_videoout_sync"
+Info: Elaborating entity "gpu_videoout_async" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_videoout_async:igpu_videoout_async"
+Info: Elaborating entity "gpu_dither" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_videoout_async:igpu_videoout_async|gpu_dither:igpu_dither"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_videoout_async:igpu_videoout_async|gpu_dither:igpu_dither|dpram:ilineram"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_videoout_async:igpu_videoout_async|gpu_dither:igpu_dither|dpram:ilineram|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_videoout_async:igpu_videoout_async|gpu_dither:igpu_dither|dpram:ilineram|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_videoout_async:igpu_videoout_async|gpu_dither:igpu_dither|dpram:ilineram|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_6b34.tdf
+Info: Elaborating entity "altsyncram_6b34" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_videoout_async:igpu_videoout_async|gpu_dither:igpu_dither|dpram:ilineram|altsyncram:altsyncram_component|altsyncram_6b34:auto_generated"
+Info: Elaborating entity "dpram_dif" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|dpram_dif:ilineram"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|dpram_dif:ilineram|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|dpram_dif:ilineram|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|dpram_dif:ilineram|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_mb34.tdf
+Info: Elaborating entity "altsyncram_mb34" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|dpram_dif:ilineram|altsyncram:altsyncram_component|altsyncram_mb34:auto_generated"
+Info: Elaborating entity "gpu_overlay" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_overlay:ioverlayFPS"
+Info: Elaborating entity "gpu_overlay" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_overlay:ioverlayCD"
+Info: Elaborating entity "gpu_overlay" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_overlay:ioverlayError"
+Info: Elaborating entity "gpu_overlay" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_overlay:ioverlayLBA"
+Info: Elaborating entity "gpu_overlay" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_overlay:idebugtext_dbg"
+Info: Elaborating entity "gpu_crosshair" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_crosshair:gpu_crosshair1"
+Info: Elaborating entity "justifier_sensor" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|justifier_sensor:justifier_sensor1"
+Info: Elaborating entity "mdec" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|SyncFifoFallThrough:ififoIn"
+Info: Elaborating entity "dpram_dif" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram_dif:iramYUV"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram_dif:iramYUV|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram_dif:iramYUV|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram_dif:iramYUV|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_d534.tdf
+Info: Elaborating entity "altsyncram_d534" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram_dif:iramYUV|altsyncram:altsyncram_component|altsyncram_d534:auto_generated"
+Info: Elaborating entity "dpram_dif" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram_dif:iramSS"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram_dif:iramSS|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram_dif:iramSS|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram_dif:iramSS|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_e534.tdf
+Info: Elaborating entity "altsyncram_e534" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram_dif:iramSS|altsyncram:altsyncram_component|altsyncram_e534:auto_generated"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|SyncFifoFallThrough:ififoRL"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iIDCTiTable"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iIDCTiTable|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iIDCTiTable|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iIDCTiTable|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_8534.tdf
+Info: Elaborating entity "altsyncram_8534" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iIDCTiTable|altsyncram:altsyncram_component|altsyncram_8534:auto_generated"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iscaleTable1"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iscaleTable1|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iscaleTable1|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iscaleTable1|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_i534.tdf
+Info: Elaborating entity "altsyncram_i534" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iscaleTable1|altsyncram:altsyncram_component|altsyncram_i534:auto_generated"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iIDCTtTable1"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iIDCTtTable1|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iIDCTtTable1|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iIDCTtTable1|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_a534.tdf
+Info: Elaborating entity "altsyncram_a534" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iIDCTtTable1|altsyncram:altsyncram_component|altsyncram_a534:auto_generated"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iramIDCTResult"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iramIDCTResult|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iramIDCTResult|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iramIDCTResult|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_4b34.tdf
+Info: Elaborating entity "altsyncram_4b34" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iramIDCTResult|altsyncram:altsyncram_component|altsyncram_4b34:auto_generated"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iramColorResult"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iramColorResult|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iramColorResult|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iramColorResult|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_q834.tdf
+Info: Elaborating entity "altsyncram_q834" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|dpram:iramColorResult|altsyncram:altsyncram_component|altsyncram_q834:auto_generated"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|SyncFifoFallThrough:ififoOut"
+Info: Elaborating entity "spu" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|SyncFifoFallThrough:ififoIn"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|SyncFifoFallThrough:ififoOut"
+Info: Elaborating entity "spu_gauss" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_gauss:ispu_gauss"
+Info: Elaborating entity "RamMLAB" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEREGS:0:itagramVOICEREGS"
+Info: Elaborating entity "altdpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEREGS:0:itagramVOICEREGS|altdpram:ialtdpram"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEREGS:0:itagramVOICEREGS|altdpram:ialtdpram"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEREGS:0:itagramVOICEREGS|altdpram:ialtdpram" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/dpram_b482.tdf
+Info: Elaborating entity "dpram_b482" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEREGS:0:itagramVOICEREGS|altdpram:ialtdpram|dpram_b482:auto_generated"
+Info: Found 1 design units, including 1 entities, in source file db/mux_chb.tdf
+Info: Elaborating entity "mux_chb" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEREGS:0:itagramVOICEREGS|altdpram:ialtdpram|dpram_b482:auto_generated|mux_chb:rd_mux"
+Info: Elaborating entity "RamMLAB" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEVOLUMES:0:itagramVOICEVOLUMES"
+Info: Elaborating entity "altdpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEVOLUMES:0:itagramVOICEVOLUMES|altdpram:ialtdpram"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEVOLUMES:0:itagramVOICEVOLUMES|altdpram:ialtdpram"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEVOLUMES:0:itagramVOICEVOLUMES|altdpram:ialtdpram" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/dpram_9482.tdf
+Info: Elaborating entity "dpram_9482" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEVOLUMES:0:itagramVOICEVOLUMES|altdpram:ialtdpram|dpram_9482:auto_generated"
+Info: Found 1 design units, including 1 entities, in source file db/decode_5la.tdf
+Info: Elaborating entity "decode_5la" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEVOLUMES:0:itagramVOICEVOLUMES|altdpram:ialtdpram|dpram_9482:auto_generated|decode_5la:wr_decode"
+Info: Found 1 design units, including 1 entities, in source file db/mux_4hb.tdf
+Info: Elaborating entity "mux_4hb" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICEVOLUMES:0:itagramVOICEVOLUMES|altdpram:ialtdpram|dpram_9482:auto_generated|mux_4hb:rd_mux"
+Info: Elaborating entity "RamMLAB" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICERECORDS:0:itagramVOICECORDS"
+Info: Elaborating entity "altdpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICERECORDS:0:itagramVOICECORDS|altdpram:ialtdpram"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICERECORDS:0:itagramVOICECORDS|altdpram:ialtdpram"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICERECORDS:0:itagramVOICECORDS|altdpram:ialtdpram" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/dpram_l582.tdf
+Info: Elaborating entity "dpram_l582" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:\gVOICERECORDS:0:itagramVOICECORDS|altdpram:ialtdpram|dpram_l582:auto_generated"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|dpram:\gram_adpcmSamples:0:iram_adpcmSamples"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|dpram:\gram_adpcmSamples:0:iram_adpcmSamples|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|dpram:\gram_adpcmSamples:0:iram_adpcmSamples|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|dpram:\gram_adpcmSamples:0:iram_adpcmSamples|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_t834.tdf
+Info: Elaborating entity "altsyncram_t834" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|dpram:\gram_adpcmSamples:0:iram_adpcmSamples|altsyncram:altsyncram_component|altsyncram_t834:auto_generated"
+Info: Elaborating entity "RamMLAB" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:iEnvCounterRam"
+Info: Elaborating entity "altdpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:iEnvCounterRam|altdpram:ialtdpram"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:iEnvCounterRam|altdpram:ialtdpram"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:iEnvCounterRam|altdpram:ialtdpram" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/dpram_a482.tdf
+Info: Elaborating entity "dpram_a482" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:iEnvCounterRam|altdpram:ialtdpram|dpram_a482:auto_generated"
+Info: Found 1 design units, including 1 entities, in source file db/mux_5hb.tdf
+Info: Elaborating entity "mux_5hb" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|RamMLAB:iEnvCounterRam|altdpram:ialtdpram|dpram_a482:auto_generated|mux_5hb:rd_mux"
+Info: Elaborating entity "spu_ram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_capture"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_capture|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_capture|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_capture|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ie34.tdf
+Info: Elaborating entity "altsyncram_ie34" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_capture|altsyncram:altsyncram_component|altsyncram_ie34:auto_generated"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_reverb"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_reverb|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_reverb|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_reverb|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ii34.tdf
+Info: Elaborating entity "altsyncram_ii34" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_reverb|altsyncram:altsyncram_component|altsyncram_ii34:auto_generated"
+Info: Found 1 design units, including 1 entities, in source file db/decode_8la.tdf
+Info: Elaborating entity "decode_8la" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_reverb|altsyncram:altsyncram_component|altsyncram_ii34:auto_generated|decode_8la:decode2"
+Info: Found 1 design units, including 1 entities, in source file db/mux_7hb.tdf
+Info: Elaborating entity "mux_7hb" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|dpram:iram_reverb|altsyncram:altsyncram_component|altsyncram_ii34:auto_generated|mux_7hb:mux4"
+Info: Elaborating entity "SyncFifoFallThrough" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|SyncFifoFallThrough:iSyncFifo_OUT"
+Info: Elaborating entity "exp2" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|exp2:iexp2"
+Info: Elaborating entity "memorymux" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|memorymux:imemorymux"
+Info: Elaborating entity "SyncFifoFallThroughMLAB" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|memorymux:imemorymux|SyncFifoFallThroughMLAB:iwritefifo"
+Info: Elaborating entity "RamMLAB" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|memorymux:imemorymux|SyncFifoFallThroughMLAB:iwritefifo|RamMLAB:iRamMLAB"
+Info: Elaborating entity "altdpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|memorymux:imemorymux|SyncFifoFallThroughMLAB:iwritefifo|RamMLAB:iRamMLAB|altdpram:ialtdpram"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|memorymux:imemorymux|SyncFifoFallThroughMLAB:iwritefifo|RamMLAB:iRamMLAB|altdpram:ialtdpram"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|memorymux:imemorymux|SyncFifoFallThroughMLAB:iwritefifo|RamMLAB:iRamMLAB|altdpram:ialtdpram" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/dpram_6482.tdf
+Info: Elaborating entity "dpram_6482" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|memorymux:imemorymux|SyncFifoFallThroughMLAB:iwritefifo|RamMLAB:iRamMLAB|altdpram:ialtdpram|dpram_6482:auto_generated"
+Info: Elaborating entity "cpu" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu"
+Info: Elaborating entity "RamMLAB" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|RamMLAB:iregisterfile1"
+Info: Elaborating entity "altdpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|RamMLAB:iregisterfile1|altdpram:ialtdpram"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|RamMLAB:iregisterfile1|altdpram:ialtdpram"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|RamMLAB:iregisterfile1|altdpram:ialtdpram" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/dpram_7482.tdf
+Info: Elaborating entity "dpram_7482" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|RamMLAB:iregisterfile1|altdpram:ialtdpram|dpram_7482:auto_generated"
+Info: Elaborating entity "RamMLAB" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|RamMLAB:itagram"
+Info: Elaborating entity "altdpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|RamMLAB:itagram|altdpram:ialtdpram"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|RamMLAB:itagram|altdpram:ialtdpram"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|RamMLAB:itagram|altdpram:ialtdpram" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/dpram_c482.tdf
+Info: Elaborating entity "dpram_c482" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|RamMLAB:itagram|altdpram:ialtdpram|dpram_c482:auto_generated"
+Info: Found 1 design units, including 1 entities, in source file db/mux_bhb.tdf
+Info: Elaborating entity "mux_bhb" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|RamMLAB:itagram|altdpram:ialtdpram|dpram_c482:auto_generated|mux_bhb:rd_mux"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|dpram:\gcache:0:icache"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|dpram:\gcache:0:icache|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|dpram:\gcache:0:icache|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|dpram:\gcache:0:icache|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_o834.tdf
+Info: Elaborating entity "altsyncram_o834" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|dpram:\gcache:0:icache|altsyncram:altsyncram_component|altsyncram_o834:auto_generated"
+Info: Elaborating entity "dpram_1clk" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|dpram_1clk:\gscratchpad:0:icache"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|dpram_1clk:\gscratchpad:0:icache|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|dpram_1clk:\gscratchpad:0:icache|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|dpram_1clk:\gscratchpad:0:icache|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_u534.tdf
+Info: Elaborating entity "altsyncram_u534" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|dpram_1clk:\gscratchpad:0:icache|altsyncram:altsyncram_component|altsyncram_u534:auto_generated"
+Info: Elaborating entity "datacache" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamMemory"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamMemory|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamMemory|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamMemory|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ei34.tdf
+Info: Elaborating entity "altsyncram_ei34" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamMemory|altsyncram:altsyncram_component|altsyncram_ei34:auto_generated"
+Info: Found 1 design units, including 1 entities, in source file db/mux_8hb.tdf
+Info: Elaborating entity "mux_8hb" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamMemory|altsyncram:altsyncram_component|altsyncram_ei34:auto_generated|mux_8hb:mux4"
+Info: Elaborating entity "dpram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamaddrsave"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamaddrsave|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamaddrsave|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamaddrsave|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ef34.tdf
+Info: Elaborating entity "altsyncram_ef34" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamaddrsave|altsyncram:altsyncram_component|altsyncram_ef34:auto_generated"
+Info: Found 1 design units, including 1 entities, in source file db/mux_lfb.tdf
+Info: Elaborating entity "mux_lfb" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|datacache:idatacache|dpram:iRamaddrsave|altsyncram:altsyncram_component|altsyncram_ef34:auto_generated|mux_lfb:mux4"
+Info: Elaborating entity "divider" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|cpu:icpu|divider:idivider"
+Info: Elaborating entity "gte" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gte:igte"
+Info: Elaborating entity "gte_mac0" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gte:igte|gte_mac0:igte_mac0"
+Info: Elaborating entity "gte_mac123" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gte:igte|gte_mac123:igte_mac1"
+Info: Elaborating entity "gte_UNRDivide" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|gte:igte|gte_UNRDivide:igte_UNRDivide"
+Info: Elaborating entity "memcard" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|memcard:imemcard1"
+Info: Elaborating entity "dpram_dif" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|memcard:imemcard1|dpram_dif:iramSectorBuffer"
+Info: Elaborating entity "altsyncram" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|memcard:imemcard1|dpram_dif:iramSectorBuffer|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|memcard:imemcard1|dpram_dif:iramSectorBuffer|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|memcard:imemcard1|dpram_dif:iramSectorBuffer|altsyncram:altsyncram_component" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_p834.tdf
+Info: Elaborating entity "altsyncram_p834" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|memcard:imemcard1|dpram_dif:iramSectorBuffer|altsyncram:altsyncram_component|altsyncram_p834:auto_generated"
+Info: Elaborating entity "savestates" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|savestates:isavestates"
+Info: Elaborating entity "statemanager" for hierarchy "emu:emu|psx_mister:psx|psx_top:ipsx_top|statemanager:istatemanager"
+Info: Elaborating entity "sdram" for hierarchy "emu:emu|sdram:sdram"
+Info: Elaborating entity "altddio_out" for hierarchy "emu:emu|sdram:sdram|altddio_out:sdramclk_ddr"
+Info: Elaborated megafunction instantiation "emu:emu|sdram:sdram|altddio_out:sdramclk_ddr"
+Info: Instantiated megafunction "emu:emu|sdram:sdram|altddio_out:sdramclk_ddr" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/ddio_out_v9j.tdf
+Info: Elaborating entity "ddio_out_v9j" for hierarchy "emu:emu|sdram:sdram|altddio_out:sdramclk_ddr|ddio_out_v9j:auto_generated"
+Info: Elaborating entity "video_freak" for hierarchy "emu:emu|video_freak:video_freak"
+Info: Elaborating entity "video_scale_int" for hierarchy "emu:emu|video_freak:video_freak|video_scale_int:scale"
+Info: Elaborating entity "gamma_corr" for hierarchy "emu:emu|gamma_corr:gamma"
+{"object_type": "report_status", "percent" : 39}
+Warning: Port "extclk" on the entity instantiation of "cyclonev_pll" is connected to a signal of width 1. The formal width of the signal in the module is 2.  The extra bits will be left dangling without any fan-out logic.
+Warning: Port "extclk" on the entity instantiation of "cyclonev_pll" is connected to a signal of width 1. The formal width of the signal in the module is 2.  The extra bits will be left dangling without any fan-out logic.
+{"object_type": "report_status", "percent" : 40}
+{"object_type": "report_status", "percent" : 41}
+{"object_type": "report_status", "percent" : 40}
+Warning: Synthesized away the following node(s):
+Info: Timing-Driven Synthesis is running
+Warning: Inferred dual-clock RAM node "emu:emu|gamma_corr:gamma|gamma_curve_rtl_0" from synchronous design logic.  The read-during-write behavior of a dual-clock RAM is undefined and may not match the behavior of the original design.
+Warning: Inferred RAM node "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|XaRingBufferL_rtl_0" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
+Warning: Inferred RAM node "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|XaRingBufferR_rtl_0" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
+Warning: Inferred dual-clock RAM node "shadowmask:HDMI_shadowmask|mask_lut_rtl_0" from synchronous design logic.  The read-during-write behavior of a dual-clock RAM is undefined and may not match the behavior of the original design.
+Warning: Inferred dual-clock RAM node "ascal:ascal|o_dpram_rtl_0" from synchronous design logic.  The read-during-write behavior of a dual-clock RAM is undefined and may not match the behavior of the original design.
+Warning: Inferred dual-clock RAM node "ascal:ascal|o_h_poly_mem_rtl_0" from synchronous design logic.  The read-during-write behavior of a dual-clock RAM is undefined and may not match the behavior of the original design.
+Warning: Inferred dual-clock RAM node "ascal:ascal|o_v_poly_mem_rtl_0" from synchronous design logic.  The read-during-write behavior of a dual-clock RAM is undefined and may not match the behavior of the original design.
+Warning: Inferred dual-clock RAM node "ascal:ascal|o_a_poly_mem_rtl_0" from synchronous design logic.  The read-during-write behavior of a dual-clock RAM is undefined and may not match the behavior of the original design.
+Warning: Tri-state node(s) do not directly drive top-level pin(s)
+Info: Inferred 45 megafunctions from design logic
+Info: Inferred 2 megafunctions from design logic
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|SyncFifoFallThrough:ififoIn|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|SyncFifoFallThrough:ififoIn|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_4jv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|dma:idma|SyncFifo:iDMAfifoIn|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|dma:idma|SyncFifo:iDMAfifoIn|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_60q1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|hps_io:hps_io|confstr_rom:confstr_rom|altsyncram:Mux6_rtl_0"
+Info: Instantiated megafunction "emu:emu|hps_io:hps_io|confstr_rom:confstr_rom|altsyncram:Mux6_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_jh51.tdf
+Info: Elaborated megafunction instantiation "ascal:ascal|altshift_taps:o_dcptv_rtl_0"
+Info: Instantiated megafunction "ascal:ascal|altshift_taps:o_dcptv_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/shift_taps_a0v.tdf
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_hu91.tdf
+Info: Found 1 design units, including 1 entities, in source file db/cntr_cjf.tdf
+Info: Found 1 design units, including 1 entities, in source file db/cmpr_c9c.tdf
+Info: Elaborated megafunction instantiation "vga_out:vga_scaler_out|altshift_taps:din1_rtl_0"
+Info: Instantiated megafunction "vga_out:vga_scaler_out|altshift_taps:din1_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/shift_taps_quu.tdf
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_dr91.tdf
+Info: Found 1 design units, including 1 entities, in source file db/cntr_ohf.tdf
+Info: Found 1 design units, including 1 entities, in source file db/cmpr_a9c.tdf
+Info: Elaborated megafunction instantiation "emu:emu|gamma_corr:gamma|altsyncram:gamma_curve_rtl_0"
+Info: Instantiated megafunction "emu:emu|gamma_corr:gamma|altsyncram:gamma_curve_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_2aj1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|SyncFifoFallThrough:ififoOut|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|SyncFifoFallThrough:ififoOut|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_2gv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|SyncFifoFallThrough:ififoIn|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|SyncFifoFallThrough:ififoIn|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_0iv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|SyncFifoFallThrough:ififoOut|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|SyncFifoFallThrough:ififoOut|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_8lv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|SyncFifoFallThrough:ififoRL|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|mdec:imdec|SyncFifoFallThrough:ififoRL|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_mhv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_vram2cpu:igpu_vram2cpu|SyncFifoFallThrough:ififo|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_vram2cpu:igpu_vram2cpu|SyncFifoFallThrough:ififo|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_slv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cheats:icheats|altsyncram:cheatmem_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cheats:icheats|altsyncram:cheatmem_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_47u1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cheats:icheats|SyncFifo:iSyncFifo|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cheats:icheats|SyncFifo:iSyncFifo|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_63q1.tdf
+Info: Elaborated megafunction instantiation "ascal:ascal|altsyncram:o_h_poly_mem_rtl_0"
+Info: Instantiated megafunction "ascal:ascal|altsyncram:o_h_poly_mem_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_o9j1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_gauss:ispu_gauss|altsyncram:Mux74_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_gauss:ispu_gauss|altsyncram:Mux74_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_uf51.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_videoout_async:igpu_videoout_async|altshift_taps:videoout_request_s1.lineInNext_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_videoout:igpu_videoout|gpu_videoout_async:igpu_videoout_async|altshift_taps:videoout_request_s1.lineInNext_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/shift_taps_ouu.tdf
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_9r91.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|SyncFifoFallThrough:iSyncFifo_OUT|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|spu:ispu|spu_ram:ispu_ram|SyncFifoFallThrough:iSyncFifo_OUT|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ufv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|SyncFifoFallThrough:iSyncFifo_OUT|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|SyncFifoFallThrough:iSyncFifo_OUT|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_uiv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_line:igpu_line|SyncFifo:iFifoLines|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|gpu_line:igpu_line|SyncFifo:iFifoLines|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_u0q1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|SyncFifo:iSyncFifo_IN|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|SyncFifo:iSyncFifo_IN|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_g3q1.tdf
+Info: Elaborated megafunction instantiation "ascal:ascal|altsyncram:i_dpram_rtl_0"
+Info: Instantiated megafunction "ascal:ascal|altsyncram:i_dpram_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_g9j1.tdf
+Info: Elaborated megafunction instantiation "ascal:ascal|altsyncram:o_dpram_rtl_0"
+Info: Instantiated megafunction "ascal:ascal|altsyncram:o_dpram_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_32k1.tdf
+Info: Elaborated megafunction instantiation "osd:vga_osd|altsyncram:osd_buffer_rtl_0"
+Info: Instantiated megafunction "osd:vga_osd|altsyncram:osd_buffer_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_i6k1.tdf
+Info: Elaborated megafunction instantiation "shadowmask:HDMI_shadowmask|altsyncram:mask_lut_rtl_0"
+Info: Instantiated megafunction "shadowmask:HDMI_shadowmask|altsyncram:mask_lut_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_k9j1.tdf
+Info: Elaborated megafunction instantiation "ascal:ascal|altshift_taps:o_vpix_inner[2].r_rtl_0"
+Info: Instantiated megafunction "ascal:ascal|altshift_taps:o_vpix_inner[2].r_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/shift_taps_agv.tdf
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_jr91.tdf
+Info: Found 1 design units, including 1 entities, in source file db/cntr_phf.tdf
+Info: Elaborated megafunction instantiation "ascal:ascal|altsyncram:pal1_mem_rtl_0"
+Info: Instantiated megafunction "ascal:ascal|altsyncram:pal1_mem_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_3aj1.tdf
+Info: Elaborated megafunction instantiation "yc_out:yc_out|altshift_taps:phase[1].y_rtl_0"
+Info: Instantiated megafunction "yc_out:yc_out|altshift_taps:phase[1].y_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/shift_taps_ruu.tdf
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_hr91.tdf
+Info: Found 1 design units, including 1 entities, in source file db/cntr_rhf.tdf
+Info: Found 1 design units, including 1 entities, in source file db/cmpr_b9c.tdf
+Info: Elaborated megafunction instantiation "osd:vga_osd|altshift_taps:rdout2_rtl_0"
+Info: Instantiated megafunction "osd:vga_osd|altshift_taps:rdout2_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/shift_taps_etu.tdf
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_fr91.tdf
+Info: Elaborated megafunction instantiation "shadowmask:HDMI_shadowmask|altshift_taps:vid_rtl_0"
+Info: Instantiated megafunction "shadowmask:HDMI_shadowmask|altshift_taps:vid_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/shift_taps_0vu.tdf
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_pr91.tdf
+Info: Elaborated megafunction instantiation "altshift_taps:dv_d1_rtl_0"
+Info: Instantiated megafunction "altshift_taps:dv_d1_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/shift_taps_d0v.tdf
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ju91.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|altsyncram:XaRingBufferL_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|altsyncram:XaRingBufferL_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_9io1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|SyncFifoFallThrough:ififoOut|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|SyncFifoFallThrough:ififoOut|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_4qv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|SyncFifo:ififoADPCM_R|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|SyncFifo:ififoADPCM_R|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_m9q1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|SyncFifoFallThrough:ififoResponse|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|SyncFifoFallThrough:ififoResponse|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_1fv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|SyncFifoFallThrough:ififoData|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|SyncFifoFallThrough:ififoData|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_hov1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|cd_xa_zigzag:icd_xa_zigzag|altsyncram:Mux15_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|cd_xa:icd_xa|cd_xa_zigzag:icd_xa_zigzag|altsyncram:Mux15_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_4g51.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|SyncFifoFallThrough:iSyncFifo_OUT2|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gpu:igpu|SyncFifoFallThrough:iSyncFifo_OUT2|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_aiv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|dma:idma|SyncFifoFallThrough:DMAfifoOut|altsyncram:memory_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|dma:idma|SyncFifoFallThrough:DMAfifoOut|altsyncram:memory_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_8jv1.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|gte:igte|gte_UNRDivide:igte_UNRDivide|altshift_taps:lhs_1_rtl_0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|gte:igte|gte_UNRDivide:igte_UNRDivide|altshift_taps:lhs_1_rtl_0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/shift_taps_vuu.tdf
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_qr91.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|lpm_divide:Div0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|lpm_divide:Div0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/lpm_divide_4am.tdf
+Info: Found 1 design units, including 1 entities, in source file db/sign_div_unsign_akh.tdf
+Info: Found 1 design units, including 1 entities, in source file db/alt_u_div_qse.tdf
+Info: Elaborated megafunction instantiation "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|lpm_divide:Mod0"
+Info: Instantiated megafunction "emu:emu|psx_mister:psx|psx_top:ipsx_top|cd_top:icd_top|lpm_divide:Mod0" with the following parameter:
+Info: Found 1 design units, including 1 entities, in source file db/lpm_divide_a2m.tdf
+Info: Found 1 design units, including 1 entities, in source file db/sign_div_unsign_dkh.tdf
+Info: Found 1 design units, including 1 entities, in source file db/alt_u_div_0te.tdf
+{"object_type": "report_status", "percent" : 39}
+{"object_type": "report_status", "percent" : 40}
+{"object_type": "report_status", "percent" : 40}
+{"object_type": "report_status", "percent" : 40}
+Warning: 21 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+{"object_type": "report_status", "percent" : 42}
+{"object_type": "report_status", "percent" : 42}
+{"object_type": "report_status", "percent" : 43}
+{"object_type": "report_status", "percent" : 43}
+{"object_type": "report_status", "percent" : 43}
+{"object_type": "report_status", "percent" : 43}
+Warning: Synthesized away the following node(s):
+Info: Resynthesizing 0 WYSIWYG logic cells and I/Os using "speed" technology mapper which leaves 14 WYSIWYG logic cells and I/Os untouched
+{"object_type": "report_status", "percent" : 44}
+{"object_type": "report_status", "percent" : 44}
+Warning: Always-enabled tri-state buffer(s) removed
+Warning: Open-drain buffer(s) that do not directly drive top-level pin(s) are removed
+Warning: Synthesized away the following node(s):
+Warning: Open-drain buffer(s) that do not directly drive top-level pin(s) are removed
+Warning: Synthesized away the following node(s):
+{"object_type": "report_status", "percent" : 44}
+{"object_type": "report_status", "percent" : 44}
+{"object_type": "report_status", "percent" : 44}
+{"object_type": "report_status", "percent" : 44}
+{"object_type": "report_status", "percent" : 45}
+{"object_type": "report_status", "percent" : 45}
+{"object_type": "report_status", "percent" : 45}
+{"object_type": "report_status", "percent" : 45}
+{"object_type": "report_status", "percent" : 45}
+{"object_type": "report_status", "percent" : 45}
+{"object_type": "report_status", "percent" : 46}
+{"object_type": "report_status", "percent" : 46}
+{"object_type": "report_status", "percent" : 46}
+{"object_type": "report_status", "percent" : 46}
+{"object_type": "report_status", "percent" : 46}
+Warning: Output pins are stuck at VCC or GND
+{"object_type": "report_status", "percent" : 48}
+{"object_type": "report_status", "percent" : 48}
+Info: 1756 registers lost all their fanouts during netlist optimizations.
+Info: Found the following redundant logic cells in design
+Info: Generated suppressed messages file C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/output_files/PSX.map.smsg
+Info: Generated JSON formatted report files in C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/db/PSX.map.json_files/
+Info: Generated JSON formatted report files in C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/db/PSX.flow.json_files/
+{"object_type": "report_status", "percent" : 49}
+{"object_type": "report_status", "percent" : 49}
+Info: Generating hard_block partition "hard_block:auto_generated_inst"
+Warning: RST port on the PLL is not properly connected on instance pll_audio:pll_audio|pll_audio_0002:pll_audio_inst|altera_pll:altera_pll_i|general[0].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock.
+Warning: RST port on the PLL is not properly connected on instance emu:emu|pll:pll|pll_0002:pll_inst|altera_pll:altera_pll_i|general[1].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock.
+Warning: RST port on the PLL is not properly connected on instance emu:emu|pll:pll|pll_0002:pll_inst|altera_pll:altera_pll_i|general[0].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock.
+Warning: RST port on the PLL is not properly connected on instance emu:emu|pll:pll|pll_0002:pll_inst|altera_pll:altera_pll_i|general[2].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock.
+Warning: Design contains 3 input pin(s) that do not drive logic
+Info: Implemented 86319 device resources after synthesis - the final resource count might be different
+Info: Generated JSON formatted report files in C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/db/PSX.map.json_files/
+Info: Generated JSON formatted report files in C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/db/PSX.flow.json_files/
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 220 warnings
+{"object_type": "report_status", "percent" : 50}
+{"object_type": "refresh_report"}
+{"object_type": "report_status", "percent" : 50}
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off PSX -c PSX
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = PSX
+Info: Revision = PSX
+{"object_type": "report_status", "percent" : 50}
+{"object_type": "refresh_report"}
+Info: Aggressive Performance optimization mode selected -- timing performance will be prioritized at the potential cost of increased logic area and compilation time
+Info: Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info: Selected device 5CSEBA6U23I7 for design "PSX"
+Info: Low junction temperature is -40 degrees C
+Info: High junction temperature is 100 degrees C
+Warning: RST port on the PLL is not properly connected on instance pll_audio:pll_audio|pll_audio_0002:pll_audio_inst|altera_pll:altera_pll_i|general[0].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock.
+Warning: LOCKED port on the PLL is not properly connected on instance "pll_audio:pll_audio|pll_audio_0002:pll_audio_inst|altera_pll:altera_pll_i|general[0].gpll". The LOCKED port on the PLL should be connected when the FBOUTCLK port is connected. Although it is unnecessary to connect the LOCKED signal, any logic driven off of an output clock of the PLL will not know when the PLL is locked and ready.
+Warning: RST port on the PLL is not properly connected on instance emu:emu|pll:pll|pll_0002:pll_inst|altera_pll:altera_pll_i|general[1].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock.
+Info: Fitter is performing a Standard Fit compilation using maximum Fitter effort to optimize design performance
+Warning: Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
+{"object_type": "report_status", "percent" : 52}
+{"object_type": "report_status", "percent" : 52}
+Warning: Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+Info: Design uses memory blocks. Violating setup or hold times of memory block address registers for either read or write operations could cause memory contents to be corrupted. Make sure that all memory block address registers meet the setup and hold time requirements.
+Info: Starting Fitter periphery placement operations
+Info: Promoted 10 clocks (9 global, 1 regional)
+Info: Automatically promoted 2 clocks (2 global)
+Info: Fitter periphery placement operations ending: elapsed time is 00:00:01
+{"object_type": "report_status", "percent" : 55}
+Info: Evaluating HDL-embedded SDC commands
+Info: Reading SDC File: 'sys/sys_top.sdc'
+Warning: Ignored filter at sys_top.sdc(6): spi|sclk_out could not be matched with a pin
+Warning: Ignored create_clock at sys_top.sdc(6): Argument <targets> is an empty collection
+Info: Deriving PLL clocks
+Info: Clock uncertainty is not calculated until you update the timing netlist.
+Warning: Ignored filter at sys_top.sdc(17): spi_sck could not be matched with a clock
+Warning: Assignment set_clock_groups is accepted but has some problems at sys_top.sdc(13): Argument -group with value [get_clocks { spi_sck}] contains zero elements
+Info: Reading SDC File: 'PSX.sdc'
+Info: Clock uncertainty is not calculated until you update the timing netlist.
+Warning: Overwriting existing clock: emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+Info: The following timing edges are non-unate.  TimeQuest will assume pos-unate behavior for these edges in the clock network.
+Info: Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info: Detected timing requirements -- optimizing circuit to achieve only the specified requirements
+Info: Found 15 clocks
+Extra Info: Performing register packing on registers with non-logic cell location assignments
+Extra Info: Completed register packing on registers with non-logic cell location assignments
+Info: Starting register packing
+Extra Info: Started Fast Input/Output/OE register processing
+Warning: Ignoring invalid fast I/O register assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
+Warning: Ignoring some wildcard destinations of fast I/O register assignments
+Extra Info: Finished Fast Input/Output/OE register processing
+Extra Info: Start inferring scan chains for DSP blocks
+Extra Info: Inferring scan chains for DSP blocks is complete
+Extra Info: Moving registers into I/O cells, DSP blocks, and RAM blocks to improve timing and density
+Extra Info: Finished moving registers into I/O cells, DSP blocks, and RAM blocks
+Info: Finished register packing
+Info: Starting physical synthesis optimizations for speed
+Info: Starting physical synthesis algorithm register retiming
+Info: Physical synthesis algorithm register retiming complete: estimated slack improvement of 333 ps
+Info: Starting physical synthesis algorithm combinational resynthesis using boolean division
+Info: Physical synthesis algorithm combinational resynthesis using boolean division complete: estimated slack improvement of 1 ps
+Info: Starting physical synthesis algorithm register retiming
+Info: Physical synthesis algorithm register retiming complete: estimated slack improvement of 0 ps
+Info: Starting physical synthesis algorithm combinational resynthesis using boolean division
+Info: Physical synthesis algorithm combinational resynthesis using boolean division complete: estimated slack improvement of 0 ps
+Info: Physical synthesis optimizations for speed complete: elapsed time is 00:01:54
+Info: Starting register packing
+Extra Info: Start inferring scan chains for DSP blocks
+Extra Info: Inferring scan chains for DSP blocks is complete
+Extra Info: Moving registers into I/O cells, DSP blocks, and RAM blocks to improve timing and density
+Extra Info: Finished moving registers into I/O cells, DSP blocks, and RAM blocks
+Info: Finished register packing
+{"object_type": "report_status", "percent" : 53}
+Info: Fitter preparation operations ending: elapsed time is 00:02:32
+{"object_type": "report_status", "percent" : 53}
+Info: Fitter placement preparation operations beginning
+{"object_type": "report_status", "percent" : 55}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 56}
+Info: The Fitter is using Advanced Physical Optimization.
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 55}
+Info: Fitter placement preparation operations ending: elapsed time is 00:04:19
+Info: Fitter placement operations beginning
+{"object_type": "report_status", "percent" : 55}
+{"object_type": "report_status", "percent" : 55}
+{"object_type": "report_status", "percent" : 55}
+{"object_type": "report_status", "percent" : 55}
+{"object_type": "report_status", "percent" : 56}
+{"object_type": "report_status", "percent" : 56}
+{"object_type": "report_status", "percent" : 56}
+{"object_type": "report_status", "percent" : 56}
+{"object_type": "report_status", "percent" : 56}
+{"object_type": "report_status", "percent" : 56}
+{"object_type": "report_status", "percent" : 57}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 60}
+{"object_type": "report_status", "percent" : 61}
+{"object_type": "report_status", "percent" : 62}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 60}
+{"object_type": "report_status", "percent" : 60}
+{"object_type": "report_status", "percent" : 60}
+{"object_type": "report_status", "percent" : 61}
+{"object_type": "report_status", "percent" : 61}
+{"object_type": "report_status", "percent" : 62}
+Info: Fitter placement was successful
+Info: Fitter placement operations ending: elapsed time is 00:00:59
+{"object_type": "report_status", "percent" : 55}
+Info: Fitter routing operations beginning
+{"object_type": "report_status", "percent" : 62}
+Info: 7e+03 ns of routing delay (approximately 3.3% of available device routing delay) has been added to meet hold timing. For more information, refer to the Estimated Delay Added for Hold Timing section in the Fitter report.
+Info: Router estimated average interconnect usage is 47% of the available device resources
+{"object_type": "report_status", "percent" : 62}
+{"object_type": "report_status", "percent" : 62}
+Info: Design requires adding a large amount of routing delay for some signals to meet hold time requirements, and there is an excessive demand for the available routing resources. The Fitter is reducing the routing delays of some signals to help the routing algorithm converge, but doing so may cause hold time failures. For more information, refer to the "Estimated Delay Added for Hold Timing" section in the Fitter report.
+Warning: The router is trying to resolve an exceedingly large amount of congestion. At the moment, it predicts long routing run time and/or significant setup or hold timing failures. Congestion details can be found in the Chip Planner.
+{"object_type": "report_status", "percent" : 62}
+{"object_type": "report_status", "percent" : 62}
+{"object_type": "report_status", "percent" : 63}
+{"object_type": "report_status", "percent" : 63}
+{"object_type": "report_status", "percent" : 63}
+{"object_type": "report_status", "percent" : 63}
+{"object_type": "report_status", "percent" : 63}
+Info: Routing optimizations have been running for 1 hour(s)
+Info: Fitter routing operations ending: elapsed time is 01:09:13
+Info: Total time spent on timing analysis during the Fitter is 99.96 seconds.
+{"object_type": "report_status", "percent" : 63}
+Info: Started post-fitting delay annotation
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 66}
+{"object_type": "report_status", "percent" : 66}
+{"object_type": "report_status", "percent" : 66}
+{"object_type": "report_status", "percent" : 66}
+Info: Delay annotation completed successfully
+Info: Started post-fitting delay annotation
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 65}
+{"object_type": "report_status", "percent" : 66}
+{"object_type": "report_status", "percent" : 66}
+{"object_type": "report_status", "percent" : 66}
+{"object_type": "report_status", "percent" : 66}
+Info: Delay annotation completed successfully
+{"object_type": "report_status", "percent" : 64}
+{"object_type": "report_status", "percent" : 66}
+Info: Fitter post-fit operations ending: elapsed time is 00:01:07
+Warning: Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
+Warning: Following 1 pins have no output enable or a GND or VCC output enable - later changes to this connectivity may change fitting results
+Info: Generated suppressed messages file C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/output_files/PSX.fit.smsg
+Info: Generated JSON formatted report files in C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/db/PSX.fit.json_files/
+Info: Generated JSON formatted report files in C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/db/PSX.flow.json_files/
+Info: Quartus Prime Fitter was successful. 0 errors, 15 warnings
+{"object_type": "report_status", "percent" : 66}
+{"object_type": "refresh_report"}
+{"object_type": "report_status", "percent" : 66}
+{"object_type": "report_status", "percent" : 67}
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off PSX -c PSX
+{"object_type": "refresh_report"}
+{"object_type": "report_status", "percent" : 68}
+{"object_type": "report_status", "percent" : 69}
+{"object_type": "report_status", "percent" : 72}
+{"object_type": "report_status", "percent" : 73}
+{"object_type": "report_status", "percent" : 75}
+{"object_type": "report_status", "percent" : 78}
+{"object_type": "report_status", "percent" : 80}
+Info: Assembler is generating device programming files
+{"object_type": "report_status", "percent" : 81}
+Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
+{"object_type": "report_status", "percent" : 83}
+{"object_type": "refresh_report"}
+Info: Skipped module PowerPlay Power Analyzer due to the assignment FLOW_ENABLE_POWER_ANALYZER
+{"object_type": "report_status", "percent" : 83}
+Info: *******************************************************************
+Info: Running Quartus Prime TimeQuest Timing Analyzer
+Info: Command: quartus_sta PSX -c PSX
+Info: qsta_default_script.tcl version: #1
+{"object_type": "report_status", "percent" : 84}
+Info: Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info: Low junction temperature is -40 degrees C
+Info: High junction temperature is 100 degrees C
+{"object_type": "report_status", "percent" : 87}
+Info: Evaluating HDL-embedded SDC commands
+Info: Reading SDC File: 'sys/sys_top.sdc'
+Warning: Ignored filter at sys_top.sdc(6): spi|sclk_out could not be matched with a pin
+Warning: Ignored create_clock at sys_top.sdc(6): Argument <targets> is an empty collection
+Info: Deriving PLL clocks
+Info: Clock uncertainty is not calculated until you update the timing netlist.
+Warning: Ignored filter at sys_top.sdc(17): spi_sck could not be matched with a clock
+Warning: Assignment set_clock_groups is accepted but has some problems at sys_top.sdc(13): Argument -group with value [get_clocks { spi_sck}] contains zero elements
+Info: Reading SDC File: 'PSX.sdc'
+Info: Clock uncertainty is not calculated until you update the timing netlist.
+Warning: Overwriting existing clock: emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+Info: The following timing edges are non-unate.  TimeQuest will assume pos-unate behavior for these edges in the clock network.
+Info: Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1100mV 100C Model
+Critical Warning: Timing requirements not met
+Info: Worst-case setup slack is -2.246
+Info: Worst-case hold slack is -0.884
+Info: Worst-case recovery slack is 3.915
+Info: Worst-case removal slack is 0.629
+Info: Worst-case minimum pulse width slack is 1.122
+Info: Report Metastability: Found 740 synchronizer chains.
+Info: Analyzing Slow 1100mV -40C Model
+Info: Started post-fitting delay annotation
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+Info: Delay annotation completed successfully
+Info: The following timing edges are non-unate.  TimeQuest will assume pos-unate behavior for these edges in the clock network.
+Info: Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Critical Warning: Timing requirements not met
+Info: Worst-case setup slack is -1.597
+Info: Worst-case hold slack is -0.724
+Info: Worst-case recovery slack is 4.021
+Info: Worst-case removal slack is 0.551
+Info: Worst-case minimum pulse width slack is 1.122
+Info: Report Metastability: Found 740 synchronizer chains.
+Info: Analyzing Fast 1100mV 100C Model
+Info: Started post-fitting delay annotation
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 93}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 95}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 97}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+{"object_type": "report_status", "percent" : 99}
+Info: Delay annotation completed successfully
+Info: The following timing edges are non-unate.  TimeQuest will assume pos-unate behavior for these edges in the clock network.
+Info: Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info: Worst-case setup slack is 2.420
+Critical Warning: Timing requirements not met
+Info: Worst-case hold slack is -0.415
+Info: Worst-case recovery slack is 5.026
+Info: Worst-case removal slack is 0.334
+Info: Worst-case minimum pulse width slack is 1.122
+Info: Report Metastability: Found 740 synchronizer chains.
+Info: Analyzing Fast 1100mV -40C Model
+Info: The following timing edges are non-unate.  TimeQuest will assume pos-unate behavior for these edges in the clock network.
+Info: Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info: Worst-case setup slack is 3.518
+Critical Warning: Timing requirements not met
+Info: Worst-case hold slack is -0.396
+Info: Worst-case recovery slack is 5.285
+Info: Worst-case removal slack is 0.255
+Info: Worst-case minimum pulse width slack is 1.122
+Info: Report Metastability: Found 740 synchronizer chains.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Generated JSON formatted report files in C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/db/PSX.sta.json_files/
+Info: Generated JSON formatted report files in C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/db/PSX.flow.json_files/
+Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 9 warnings
+Info: Generated JSON formatted report files in C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_5/db/PSX.sta.json_files/
+{"object_type": "report_status", "percent" : 100}
+{"object_type": "refresh_report"}
+Info: Quartus Prime Full Compilation was successful. 0 errors, 244 warnings
+Info: Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/internal/qsh_flow.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 244 warnings
