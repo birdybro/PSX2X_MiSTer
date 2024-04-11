@@ -1,0 +1,315 @@
+DSE Messages
+Message
+Info: Archiving C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/PSX.qpf revision PSX ...
+Info: Job 1 : quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Job 2 : quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Job 3 : quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Job 4 : quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Job 5 : quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Job 6 : quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Job 7 : quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Job 8 : quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Job 9 : quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Job 10 : quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Job 11 : quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Explorer server: http://localhost:61000 started.
+Info: Starting seed sweep only exploration
+Info: Revision: dse1_base will be compiled on compute node: aberu-pc
+Info: Exploration Point dse1_base reported: Registering self with server http://localhost:61000/api/v1.0/broker/server/
+Info: Exploration Point dse1_base reported: Successfully registered with server.
+Info: Exploration Point dse1_base reported: Starting compilation quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Exploration Point dse1_base reported: Sent timestamps successfully
+Info: Exploration Point dse1_base reported: Preparing to compile PSX ...
+Info: Exploration Point dse1_base reported: Downloading PSX.qar.sha256 ...
+Info: Exploration Point dse1_base reported: Finished download.
+Info: Exploration Point dse1_base reported: Verified dse/dse1/dse1_base\PSX.qar.sha256 exists.
+Info: Exploration Point dse1_base reported: Downloading PSX.qar ...
+Info: Exploration Point dse1_base reported: Finished download.
+Info: Exploration Point dse1_base reported: Verified dse/dse1/dse1_base\PSX.qar exists.
+Info: Exploration Point dse1_base reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_base reported: Running quartus_sh --restore -output dse/dse1/dse1_base dse/dse1/dse1_base\PSX.qar
+Info: Exploration Point dse1_base reported: Downloading dse1_base.qsf ...
+Info: Exploration Point dse1_base reported: Finished download.
+Info: Exploration Point dse1_base reported: Verified C:\Users\aberu\Documents\GitHub\PSX2X_MiSTer\dse/dse1/dse1_base\PSX.qsf exists.
+Info: Exploration Point dse1_base reported: Downloading dse1_base.qpf ...
+Info: Exploration Point dse1_base reported: Finished download.
+Info: Exploration Point dse1_base reported: Verified dse/dse1/dse1_base\PSX.qpf exists.
+Info: Exploration Point dse1_base reported: Sent timestamps successfully
+Info: Exploration Point dse1_base reported: Sent timestamps successfully
+Info: Exploration Point dse1_base reported: Compilation finished. 0 msgs
+Info: Exploration Point dse1_base reported: Processing keep results option: all
+Info: Revision: dse1_1 will be compiled on compute node: aberu-pc
+Info: Exploration Point dse1_1 reported: Registering self with server http://localhost:61000/api/v1.0/broker/server/
+Info: Exploration Point dse1_1 reported: Successfully registered with server.
+Info: Exploration Point dse1_1 reported: Starting compilation quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Exploration Point dse1_1 reported: Sent timestamps successfully
+Info: Exploration Point dse1_1 reported: Preparing to compile PSX ...
+Info: Exploration Point dse1_1 reported: Downloading PSX.qar.sha256 ...
+Info: Exploration Point dse1_1 reported: Finished download.
+Info: Exploration Point dse1_1 reported: Verified dse/dse1/dse1_1\PSX.qar.sha256 exists.
+Info: Exploration Point dse1_1 reported: Downloading PSX.qar ...
+Info: Exploration Point dse1_1 reported: Finished download.
+Info: Exploration Point dse1_1 reported: Verified dse/dse1/dse1_1\PSX.qar exists.
+Info: Exploration Point dse1_1 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_1 reported: Running quartus_sh --restore -output dse/dse1/dse1_1 dse/dse1/dse1_1\PSX.qar
+Info: Exploration Point dse1_1 reported: Downloading dse1_1.qsf ...
+Info: Exploration Point dse1_1 reported: Finished download.
+Info: Exploration Point dse1_1 reported: Verified C:\Users\aberu\Documents\GitHub\PSX2X_MiSTer\dse/dse1/dse1_1\PSX.qsf exists.
+Info: Exploration Point dse1_1 reported: Downloading dse1_1.qpf ...
+Info: Exploration Point dse1_1 reported: Finished download.
+Info: Exploration Point dse1_1 reported: Verified dse/dse1/dse1_1\PSX.qpf exists.
+Info: Exploration Point dse1_1 reported: Sent timestamps successfully
+Info: Exploration Point dse1_1 reported: Sent timestamps successfully
+Info: Exploration Point dse1_1 reported: Compilation finished. 0 msgs
+Info: Exploration Point dse1_1 reported: Processing keep results option: all
+Info: Revision: dse1_2 will be compiled on compute node: aberu-pc
+Info: Exploration Point dse1_2 reported: Registering self with server http://localhost:61000/api/v1.0/broker/server/
+Info: Exploration Point dse1_2 reported: Successfully registered with server.
+Info: Exploration Point dse1_2 reported: Starting compilation quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Exploration Point dse1_2 reported: Sent timestamps successfully
+Info: Exploration Point dse1_2 reported: Preparing to compile PSX ...
+Info: Exploration Point dse1_2 reported: Downloading PSX.qar.sha256 ...
+Info: Exploration Point dse1_2 reported: Finished download.
+Info: Exploration Point dse1_2 reported: Verified dse/dse1/dse1_2\PSX.qar.sha256 exists.
+Info: Exploration Point dse1_2 reported: Downloading PSX.qar ...
+Info: Exploration Point dse1_2 reported: Finished download.
+Info: Exploration Point dse1_2 reported: Verified dse/dse1/dse1_2\PSX.qar exists.
+Info: Exploration Point dse1_2 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_2 reported: Running quartus_sh --restore -output dse/dse1/dse1_2 dse/dse1/dse1_2\PSX.qar
+Info: Exploration Point dse1_2 reported: Downloading dse1_2.qsf ...
+Info: Exploration Point dse1_2 reported: Finished download.
+Info: Exploration Point dse1_2 reported: Verified C:\Users\aberu\Documents\GitHub\PSX2X_MiSTer\dse/dse1/dse1_2\PSX.qsf exists.
+Info: Exploration Point dse1_2 reported: Downloading dse1_2.qpf ...
+Info: Exploration Point dse1_2 reported: Finished download.
+Info: Exploration Point dse1_2 reported: Verified dse/dse1/dse1_2\PSX.qpf exists.
+Info: Exploration Point dse1_2 reported: Sent timestamps successfully
+Info: Exploration Point dse1_2 reported: Sent timestamps successfully
+Info: Exploration Point dse1_2 reported: Compilation finished. 0 msgs
+Info: Exploration Point dse1_2 reported: Processing keep results option: all
+Info: Revision: dse1_3 will be compiled on compute node: aberu-pc
+Info: Exploration Point dse1_3 reported: Registering self with server http://localhost:61000/api/v1.0/broker/server/
+Info: Exploration Point dse1_3 reported: Successfully registered with server.
+Info: Exploration Point dse1_3 reported: Starting compilation quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Exploration Point dse1_3 reported: Sent timestamps successfully
+Info: Exploration Point dse1_3 reported: Preparing to compile PSX ...
+Info: Exploration Point dse1_3 reported: Downloading PSX.qar.sha256 ...
+Info: Exploration Point dse1_3 reported: Finished download.
+Info: Exploration Point dse1_3 reported: Verified dse/dse1/dse1_3\PSX.qar.sha256 exists.
+Info: Exploration Point dse1_3 reported: Downloading PSX.qar ...
+Info: Exploration Point dse1_3 reported: Finished download.
+Info: Exploration Point dse1_3 reported: Verified dse/dse1/dse1_3\PSX.qar exists.
+Info: Exploration Point dse1_3 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_3 reported: Running quartus_sh --restore -output dse/dse1/dse1_3 dse/dse1/dse1_3\PSX.qar
+Info: Exploration Point dse1_3 reported: Downloading dse1_3.qsf ...
+Info: Exploration Point dse1_3 reported: Finished download.
+Info: Exploration Point dse1_3 reported: Verified C:\Users\aberu\Documents\GitHub\PSX2X_MiSTer\dse/dse1/dse1_3\PSX.qsf exists.
+Info: Exploration Point dse1_3 reported: Downloading dse1_3.qpf ...
+Info: Exploration Point dse1_3 reported: Finished download.
+Info: Exploration Point dse1_3 reported: Verified dse/dse1/dse1_3\PSX.qpf exists.
+Info: Exploration Point dse1_3 reported: Sent timestamps successfully
+Info: Exploration Point dse1_3 reported: Sent timestamps successfully
+Info: Exploration Point dse1_3 reported: Compilation finished. 0 msgs
+Info: Exploration Point dse1_3 reported: Processing keep results option: all
+Info: Revision: dse1_4 will be compiled on compute node: aberu-pc
+Info: Exploration Point dse1_4 reported: Registering self with server http://localhost:61000/api/v1.0/broker/server/
+Info: Exploration Point dse1_4 reported: Successfully registered with server.
+Info: Exploration Point dse1_4 reported: Starting compilation quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Exploration Point dse1_4 reported: Sent timestamps successfully
+Info: Exploration Point dse1_4 reported: Preparing to compile PSX ...
+Info: Exploration Point dse1_4 reported: Downloading PSX.qar.sha256 ...
+Info: Exploration Point dse1_4 reported: Finished download.
+Info: Exploration Point dse1_4 reported: Verified dse/dse1/dse1_4\PSX.qar.sha256 exists.
+Info: Exploration Point dse1_4 reported: Downloading PSX.qar ...
+Info: Exploration Point dse1_4 reported: Finished download.
+Info: Exploration Point dse1_4 reported: Verified dse/dse1/dse1_4\PSX.qar exists.
+Info: Exploration Point dse1_4 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_4 reported: Running quartus_sh --restore -output dse/dse1/dse1_4 dse/dse1/dse1_4\PSX.qar
+Info: Exploration Point dse1_4 reported: Downloading dse1_4.qsf ...
+Info: Exploration Point dse1_4 reported: Finished download.
+Info: Exploration Point dse1_4 reported: Verified C:\Users\aberu\Documents\GitHub\PSX2X_MiSTer\dse/dse1/dse1_4\PSX.qsf exists.
+Info: Exploration Point dse1_4 reported: Downloading dse1_4.qpf ...
+Info: Exploration Point dse1_4 reported: Finished download.
+Info: Exploration Point dse1_4 reported: Verified dse/dse1/dse1_4\PSX.qpf exists.
+Info: Exploration Point dse1_4 reported: Sent timestamps successfully
+Info: Exploration Point dse1_4 reported: Sent timestamps successfully
+Info: Exploration Point dse1_4 reported: Compilation finished. 0 msgs
+Info: Exploration Point dse1_4 reported: Processing keep results option: all
+Info: Revision: dse1_5 will be compiled on compute node: aberu-pc
+Info: Exploration Point dse1_5 reported: Registering self with server http://localhost:61000/api/v1.0/broker/server/
+Info: Exploration Point dse1_5 reported: Successfully registered with server.
+Info: Exploration Point dse1_5 reported: Starting compilation quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Exploration Point dse1_5 reported: Sent timestamps successfully
+Info: Exploration Point dse1_5 reported: Preparing to compile PSX ...
+Info: Exploration Point dse1_5 reported: Downloading PSX.qar.sha256 ...
+Info: Exploration Point dse1_5 reported: Finished download.
+Info: Exploration Point dse1_5 reported: Verified dse/dse1/dse1_5\PSX.qar.sha256 exists.
+Info: Exploration Point dse1_5 reported: Downloading PSX.qar ...
+Info: Exploration Point dse1_5 reported: Finished download.
+Info: Exploration Point dse1_5 reported: Verified dse/dse1/dse1_5\PSX.qar exists.
+Info: Exploration Point dse1_5 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_5 reported: Running quartus_sh --restore -output dse/dse1/dse1_5 dse/dse1/dse1_5\PSX.qar
+Info: Exploration Point dse1_5 reported: Downloading dse1_5.qsf ...
+Info: Exploration Point dse1_5 reported: Finished download.
+Info: Exploration Point dse1_5 reported: Verified C:\Users\aberu\Documents\GitHub\PSX2X_MiSTer\dse/dse1/dse1_5\PSX.qsf exists.
+Info: Exploration Point dse1_5 reported: Downloading dse1_5.qpf ...
+Info: Exploration Point dse1_5 reported: Finished download.
+Info: Exploration Point dse1_5 reported: Verified dse/dse1/dse1_5\PSX.qpf exists.
+Info: Exploration Point dse1_5 reported: Sent timestamps successfully
+Info: Exploration Point dse1_5 reported: Sent timestamps successfully
+Info: Exploration Point dse1_5 reported: Compilation finished. 0 msgs
+Info: Exploration Point dse1_5 reported: Processing keep results option: all
+Info: Revision: dse1_6 will be compiled on compute node: aberu-pc
+Info: Exploration Point dse1_6 reported: Registering self with server http://localhost:61000/api/v1.0/broker/server/
+Info: Exploration Point dse1_6 reported: Successfully registered with server.
+Info: Exploration Point dse1_6 reported: Starting compilation quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Exploration Point dse1_6 reported: Sent timestamps successfully
+Info: Exploration Point dse1_6 reported: Preparing to compile PSX ...
+Info: Exploration Point dse1_6 reported: Downloading PSX.qar.sha256 ...
+Info: Exploration Point dse1_6 reported: Finished download.
+Info: Exploration Point dse1_6 reported: Verified dse/dse1/dse1_6\PSX.qar.sha256 exists.
+Info: Exploration Point dse1_6 reported: Downloading PSX.qar ...
+Info: Exploration Point dse1_6 reported: Finished download.
+Info: Exploration Point dse1_6 reported: Verified dse/dse1/dse1_6\PSX.qar exists.
+Info: Exploration Point dse1_6 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_6 reported: Running quartus_sh --restore -output dse/dse1/dse1_6 dse/dse1/dse1_6\PSX.qar
+Info: Exploration Point dse1_6 reported: Downloading dse1_6.qsf ...
+Info: Exploration Point dse1_6 reported: Finished download.
+Info: Exploration Point dse1_6 reported: Verified C:\Users\aberu\Documents\GitHub\PSX2X_MiSTer\dse/dse1/dse1_6\PSX.qsf exists.
+Info: Exploration Point dse1_6 reported: Downloading dse1_6.qpf ...
+Info: Exploration Point dse1_6 reported: Finished download.
+Info: Exploration Point dse1_6 reported: Verified dse/dse1/dse1_6\PSX.qpf exists.
+Info: Exploration Point dse1_6 reported: Sent timestamps successfully
+Info: Exploration Point dse1_6 reported: Sent timestamps successfully
+Info: Exploration Point dse1_6 reported: Compilation finished. 0 msgs
+Info: Exploration Point dse1_6 reported: Processing keep results option: all
+Info: Revision: dse1_7 will be compiled on compute node: aberu-pc
+Info: Exploration Point dse1_7 reported: Registering self with server http://localhost:61000/api/v1.0/broker/server/
+Info: Exploration Point dse1_7 reported: Successfully registered with server.
+Info: Exploration Point dse1_7 reported: Starting compilation quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Exploration Point dse1_7 reported: Sent timestamps successfully
+Info: Exploration Point dse1_7 reported: Preparing to compile PSX ...
+Info: Exploration Point dse1_7 reported: Downloading PSX.qar.sha256 ...
+Info: Exploration Point dse1_7 reported: Finished download.
+Info: Exploration Point dse1_7 reported: Verified dse/dse1/dse1_7\PSX.qar.sha256 exists.
+Info: Exploration Point dse1_7 reported: Downloading PSX.qar ...
+Info: Exploration Point dse1_7 reported: Finished download.
+Info: Exploration Point dse1_7 reported: Verified dse/dse1/dse1_7\PSX.qar exists.
+Info: Exploration Point dse1_7 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_7 reported: Running quartus_sh --restore -output dse/dse1/dse1_7 dse/dse1/dse1_7\PSX.qar
+Info: Exploration Point dse1_7 reported: Downloading dse1_7.qsf ...
+Info: Exploration Point dse1_7 reported: Finished download.
+Info: Exploration Point dse1_7 reported: Verified C:\Users\aberu\Documents\GitHub\PSX2X_MiSTer\dse/dse1/dse1_7\PSX.qsf exists.
+Info: Exploration Point dse1_7 reported: Downloading dse1_7.qpf ...
+Info: Exploration Point dse1_7 reported: Finished download.
+Info: Exploration Point dse1_7 reported: Verified dse/dse1/dse1_7\PSX.qpf exists.
+Info: Exploration Point dse1_7 reported: Sent timestamps successfully
+Info: Exploration Point dse1_7 reported: Sent timestamps successfully
+Error: Exploration Point dse1_7 reported: Final fitting attempt was unsuccessful
+"Error: Exploration Point dse1_7 reported: Can't fit design in device. Modify your design to reduce resources, or choose a larger device. The Intel FPGA Knowledge Database contains many articles with specific details on how to resolve this error. Visit the Knowledge Database at https://www.altera.com/support/support-resources/knowledge-base/search.html and search for this specific error message number."
+"Error: Exploration Point dse1_7 reported: Quartus Prime Fitter was unsuccessful. 2 errors, 20 warnings"
+Error: 	Peak virtual memory: 10953 megabytes
+Error: 	Processing ended: Thu Apr 11 03:10:31 2024
+Error: 	Elapsed time: 00:46:36
+Error: 	Total CPU time (on all processors): 00:13:37
+"Error: Exploration Point dse1_7 reported: Quartus Prime Full Compilation was unsuccessful. 4 errors, 240 warnings"
+Error: Exploration Point dse1_7 reported: Flow compile (for project C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_7/PSX) was not successful
+Error: Exploration Point dse1_7 reported: ERROR: Error(s) found while running an executable. See report file(s) for error message(s). Message log indicates which executable was run last.
+Error: Exploration Point dse1_7 reported: Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/internal/qsh_flow.tcl unsuccessful
+"Error: Exploration Point dse1_7 reported: Quartus Prime Shell was unsuccessful. 11 errors, 240 warnings"
+Error: 	Peak virtual memory: 4662 megabytes
+Error: 	Processing ended: Thu Apr 11 03:10:32 2024
+Error: 	Elapsed time: 00:49:33
+Error: 	Total CPU time (on all processors): 00:00:00
+Info: Exploration Point dse1_7 reported: Compilation finished. 8 msgs
+Info: Exploration Point dse1_7 reported: Processing keep results option: all
+Info: Revision: dse1_8 will be compiled on compute node: aberu-pc
+Info: Exploration Point dse1_8 reported: Registering self with server http://localhost:61000/api/v1.0/broker/server/
+Info: Exploration Point dse1_8 reported: Successfully registered with server.
+Info: Exploration Point dse1_8 reported: Starting compilation quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Exploration Point dse1_8 reported: Sent timestamps successfully
+Info: Exploration Point dse1_8 reported: Preparing to compile PSX ...
+Info: Exploration Point dse1_8 reported: Downloading PSX.qar.sha256 ...
+Info: Exploration Point dse1_8 reported: Finished download.
+Info: Exploration Point dse1_8 reported: Verified dse/dse1/dse1_8\PSX.qar.sha256 exists.
+Info: Exploration Point dse1_8 reported: Downloading PSX.qar ...
+Info: Exploration Point dse1_8 reported: Finished download.
+Info: Exploration Point dse1_8 reported: Verified dse/dse1/dse1_8\PSX.qar exists.
+Info: Exploration Point dse1_8 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_8 reported: Running quartus_sh --restore -output dse/dse1/dse1_8 dse/dse1/dse1_8\PSX.qar
+Info: Exploration Point dse1_8 reported: Downloading dse1_8.qsf ...
+Info: Exploration Point dse1_8 reported: Finished download.
+Info: Exploration Point dse1_8 reported: Verified C:\Users\aberu\Documents\GitHub\PSX2X_MiSTer\dse/dse1/dse1_8\PSX.qsf exists.
+Info: Exploration Point dse1_8 reported: Downloading dse1_8.qpf ...
+Info: Exploration Point dse1_8 reported: Finished download.
+Info: Exploration Point dse1_8 reported: Verified dse/dse1/dse1_8\PSX.qpf exists.
+Info: Exploration Point dse1_8 reported: Sent timestamps successfully
+Info: Exploration Point dse1_8 reported: Sent timestamps successfully
+Error: Exploration Point dse1_8 reported: Final fitting attempt was unsuccessful
+"Error: Exploration Point dse1_8 reported: Can't fit design in device. Modify your design to reduce resources, or choose a larger device. The Intel FPGA Knowledge Database contains many articles with specific details on how to resolve this error. Visit the Knowledge Database at https://www.altera.com/support/support-resources/knowledge-base/search.html and search for this specific error message number."
+"Error: Exploration Point dse1_8 reported: Quartus Prime Fitter was unsuccessful. 2 errors, 18 warnings"
+Error: 	Peak virtual memory: 10989 megabytes
+Error: 	Processing ended: Thu Apr 11 03:32:28 2024
+Error: 	Elapsed time: 00:18:48
+Error: 	Total CPU time (on all processors): 00:10:24
+"Error: Exploration Point dse1_8 reported: Quartus Prime Full Compilation was unsuccessful. 4 errors, 238 warnings"
+Error: Exploration Point dse1_8 reported: Flow compile (for project C:/Users/aberu/Documents/GitHub/PSX2X_MiSTer/dse/dse1/dse1_8/PSX) was not successful
+Error: Exploration Point dse1_8 reported: ERROR: Error(s) found while running an executable. See report file(s) for error message(s). Message log indicates which executable was run last.
+Error: Exploration Point dse1_8 reported: Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/internal/qsh_flow.tcl unsuccessful
+"Error: Exploration Point dse1_8 reported: Quartus Prime Shell was unsuccessful. 11 errors, 238 warnings"
+Error: 	Peak virtual memory: 4689 megabytes
+Error: 	Processing ended: Thu Apr 11 03:32:29 2024
+Error: 	Elapsed time: 00:21:44
+Error: 	Total CPU time (on all processors): 00:00:00
+Info: Exploration Point dse1_8 reported: Compilation finished. 8 msgs
+Info: Exploration Point dse1_8 reported: Processing keep results option: all
+Info: Revision: dse1_9 will be compiled on compute node: aberu-pc
+Info: Exploration Point dse1_9 reported: Registering self with server http://localhost:61000/api/v1.0/broker/server/
+Info: Exploration Point dse1_9 reported: Successfully registered with server.
+Info: Exploration Point dse1_9 reported: Starting compilation quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Exploration Point dse1_9 reported: Sent timestamps successfully
+Info: Exploration Point dse1_9 reported: Preparing to compile PSX ...
+Info: Exploration Point dse1_9 reported: Downloading PSX.qar.sha256 ...
+Info: Exploration Point dse1_9 reported: Finished download.
+Info: Exploration Point dse1_9 reported: Verified dse/dse1/dse1_9\PSX.qar.sha256 exists.
+Info: Exploration Point dse1_9 reported: Downloading PSX.qar ...
+Info: Exploration Point dse1_9 reported: Finished download.
+Info: Exploration Point dse1_9 reported: Verified dse/dse1/dse1_9\PSX.qar exists.
+Info: Exploration Point dse1_9 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_9 reported: Running quartus_sh --restore -output dse/dse1/dse1_9 dse/dse1/dse1_9\PSX.qar
+Info: Exploration Point dse1_9 reported: Downloading dse1_9.qsf ...
+Info: Exploration Point dse1_9 reported: Finished download.
+Info: Exploration Point dse1_9 reported: Verified C:\Users\aberu\Documents\GitHub\PSX2X_MiSTer\dse/dse1/dse1_9\PSX.qsf exists.
+Info: Exploration Point dse1_9 reported: Downloading dse1_9.qpf ...
+Info: Exploration Point dse1_9 reported: Finished download.
+Info: Exploration Point dse1_9 reported: Verified dse/dse1/dse1_9\PSX.qpf exists.
+Info: Exploration Point dse1_9 reported: Sent timestamps successfully
+Info: Exploration Point dse1_9 reported: Sent timestamps successfully
+Info: Exploration Point dse1_9 reported: Compilation finished. 0 msgs
+Info: Exploration Point dse1_9 reported: Processing keep results option: all
+Info: Revision: dse1_10 will be compiled on compute node: aberu-pc
+Info: Exploration Point dse1_10 reported: Registering self with server http://localhost:61000/api/v1.0/broker/server/
+Info: Exploration Point dse1_10 reported: Successfully registered with server.
+Info: Exploration Point dse1_10 reported: Starting compilation quartus_sh --ipc_json --flow compile PSX.qsf
+Info: Exploration Point dse1_10 reported: Sent timestamps successfully
+Info: Exploration Point dse1_10 reported: Preparing to compile PSX ...
+Info: Exploration Point dse1_10 reported: Downloading PSX.qar.sha256 ...
+Info: Exploration Point dse1_10 reported: Finished download.
+Info: Exploration Point dse1_10 reported: Verified dse/dse1/dse1_10\PSX.qar.sha256 exists.
+Info: Exploration Point dse1_10 reported: Downloading PSX.qar ...
+Info: Exploration Point dse1_10 reported: Finished download.
+Info: Exploration Point dse1_10 reported: Verified dse/dse1/dse1_10\PSX.qar exists.
+Info: Exploration Point dse1_10 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point dse1_10 reported: Running quartus_sh --restore -output dse/dse1/dse1_10 dse/dse1/dse1_10\PSX.qar
+Info: Exploration Point dse1_10 reported: Downloading dse1_10.qsf ...
+Info: Exploration Point dse1_10 reported: Finished download.
+Info: Exploration Point dse1_10 reported: Verified C:\Users\aberu\Documents\GitHub\PSX2X_MiSTer\dse/dse1/dse1_10\PSX.qsf exists.
+Info: Exploration Point dse1_10 reported: Downloading dse1_10.qpf ...
+Info: Exploration Point dse1_10 reported: Finished download.
+Info: Exploration Point dse1_10 reported: Verified dse/dse1/dse1_10\PSX.qpf exists.
+Info: Exploration Point dse1_10 reported: Sent timestamps successfully
+Info: Exploration Point dse1_10 reported: Sent timestamps successfully
+Info: Exploration Point dse1_10 reported: Compilation finished. 0 msgs
+Info: Exploration Point dse1_10 reported: Processing keep results option: all
+Error: Completed exploration. Results: 9 passed; 2 failed.
+Info: Processing ended: Thu Apr 11 04:35:32 2024
+Info: Elapsed time: 8:09:50

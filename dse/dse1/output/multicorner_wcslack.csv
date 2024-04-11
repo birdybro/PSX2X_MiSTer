@@ -1,0 +1,13 @@
+Multicorner Timing Analysis Worst-Case Slack: Setup
+Exploration Point,FPGA_CLK1_50,FPGA_CLK2_50,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk,emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk,Worst-Case Slack
+dse1_1,7.805,5.053,1.086,1.072,-0.077,0.263,13.354,0.096,-0.077
+dse1_2,6.785,5.602,1.118,-0.901,-5.475,-2.445,12.990,-0.273,-5.475
+dse1_3,7.068,5.163,0.437,1.861,-0.877,0.782,12.289,-0.268,-0.877
+dse1_4,7.729,4.648,0.763,-1.892,-3.789,0.342,14.051,-0.253,-3.789
+dse1_5,7.689,3.505,0.615,-1.369,-2.246,-1.732,14.187,-0.420,-2.246
+dse1_6,6.812,5.057,0.583,1.015,-1.934,0.907,15.008,-0.342,-1.934
+dse1_7,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data
+dse1_8,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data
+dse1_9,5.747,5.354,1.280,0.653,-0.878,0.775,12.453,-0.275,-0.878
+dse1_10,7.070,5.527,1.287,-0.543,-0.161,0.888,12.788,-0.049,-0.543
+dse1_base,7.068,5.163,0.437,1.861,-0.877,0.782,12.289,-0.268,-0.877

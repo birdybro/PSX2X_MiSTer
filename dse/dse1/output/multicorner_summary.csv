@@ -1,0 +1,85 @@
+Multicorner Timing Analysis: Summary
+Exploration Point,Setup,Hold,Recovery,Removal,Clock
+dse1_1,7.805,0.140,17.029,0.501,FPGA_CLK1_50
+dse1_1,5.053,0.167,17.968,0.480,FPGA_CLK2_50
+dse1_1,1.086,0.056,9.310,0.602,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_1,1.072,0.059,3.033,0.475,emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_1,-0.077,-0.112,3.033,0.475,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_1,0.263,0.162,No Data,No Data,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_1,13.354,0.123,No Data,No Data,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_1,0.096,0.056,No Data,No Data,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_1,-0.077,-0.112,No Data,No Data,Worst-Case Slack
+dse1_2,6.785,0.135,16.254,0.419,FPGA_CLK1_50
+dse1_2,5.602,0.166,16.782,0.586,FPGA_CLK2_50
+dse1_2,1.118,0.119,9.570,0.555,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_2,-0.901,-0.022,4.347,0.392,emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_2,-5.475,-0.985,4.347,0.392,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_2,-2.445,0.165,No Data,No Data,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_2,12.990,0.131,No Data,No Data,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_2,-0.273,0.062,No Data,No Data,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_2,-5.475,-0.985,No Data,No Data,Worst-Case Slack
+dse1_3,7.068,0.136,16.049,0.431,FPGA_CLK1_50
+dse1_3,5.163,0.167,18.204,0.399,FPGA_CLK2_50
+dse1_3,0.437,0.139,8.740,0.789,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_3,1.861,0.045,3.011,0.721,emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_3,-0.877,-0.911,3.011,0.399,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_3,0.782,0.141,No Data,No Data,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_3,12.289,0.122,No Data,No Data,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_3,-0.268,0.055,No Data,No Data,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_3,-0.877,-0.911,No Data,No Data,Worst-Case Slack
+dse1_4,7.729,0.164,16.866,0.570,FPGA_CLK1_50
+dse1_4,4.648,0.163,18.101,0.440,FPGA_CLK2_50
+dse1_4,0.763,0.074,8.894,0.733,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_4,-1.892,-0.189,3.950,0.701,emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_4,-3.789,-0.089,3.950,0.440,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_4,0.342,0.019,No Data,No Data,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_4,14.051,0.122,No Data,No Data,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_4,-0.253,0.064,No Data,No Data,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_4,-3.789,-0.189,No Data,No Data,Worst-Case Slack
+dse1_5,7.689,0.130,15.821,0.527,FPGA_CLK1_50
+dse1_5,3.505,0.168,17.123,0.255,FPGA_CLK2_50
+dse1_5,0.615,0.120,9.497,0.551,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_5,-1.369,-0.043,3.915,0.491,emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_5,-2.246,-0.884,3.915,0.255,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_5,-1.732,-0.371,No Data,No Data,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_5,14.187,0.120,No Data,No Data,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_5,-0.420,-0.190,No Data,No Data,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_5,-2.246,-0.884,No Data,No Data,Worst-Case Slack
+dse1_6,6.812,0.135,16.096,0.413,FPGA_CLK1_50
+dse1_6,5.057,0.125,17.309,0.444,FPGA_CLK2_50
+dse1_6,0.583,0.074,8.847,0.788,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_6,1.015,0.095,3.721,0.466,emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_6,-1.934,0.078,3.721,0.413,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_6,0.907,0.167,No Data,No Data,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_6,15.008,0.122,No Data,No Data,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_6,-0.342,0.117,No Data,No Data,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_6,-1.934,0.074,No Data,No Data,Worst-Case Slack
+dse1_7,No Data,No Data,No Data,No Data,Worst-Case Slack
+dse1_8,No Data,No Data,No Data,No Data,Worst-Case Slack
+dse1_9,5.747,0.130,16.963,0.447,FPGA_CLK1_50
+dse1_9,5.354,0.167,17.787,0.501,FPGA_CLK2_50
+dse1_9,1.280,0.119,8.471,0.887,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_9,0.653,-0.049,3.802,0.561,emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_9,-0.878,-0.039,3.802,0.447,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_9,0.775,0.034,No Data,No Data,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_9,12.453,0.123,No Data,No Data,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_9,-0.275,0.094,No Data,No Data,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_9,-0.878,-0.049,No Data,No Data,Worst-Case Slack
+dse1_10,7.070,0.134,16.561,0.568,FPGA_CLK1_50
+dse1_10,5.527,0.120,17.914,0.335,FPGA_CLK2_50
+dse1_10,1.287,0.115,9.137,0.645,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_10,-0.543,0.090,2.832,0.357,emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_10,-0.161,0.074,2.832,0.335,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_10,0.888,0.166,No Data,No Data,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_10,12.788,0.120,No Data,No Data,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_10,-0.049,0.122,No Data,No Data,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_10,-0.543,0.074,No Data,No Data,Worst-Case Slack
+dse1_base,7.068,0.136,16.049,0.431,FPGA_CLK1_50
+dse1_base,5.163,0.167,18.204,0.399,FPGA_CLK2_50
+dse1_base,0.437,0.139,8.740,0.789,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_base,1.861,0.045,3.011,0.721,emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_base,-0.877,-0.911,3.011,0.399,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_base,0.782,0.141,No Data,No Data,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_base,12.289,0.122,No Data,No Data,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+dse1_base,-0.268,0.055,No Data,No Data,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk
+dse1_base,-0.877,-0.911,No Data,No Data,Worst-Case Slack

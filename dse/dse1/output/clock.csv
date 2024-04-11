@@ -1,0 +1,13 @@
+Clocks: Frequency
+Exploration Point,FPGA_CLK1_50,FPGA_CLK2_50,FPGA_CLK3_50,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|fpll_0|fpll|vcoph[0],emu|pll|pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0],emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk,hdmi_sck,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0],pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|fpll_0|fpll|vcoph[0],sysmem|fpga_interfaces|clocks_resets|h2f_user0_clk
+dse1_1,50.0 MHz,50.0 MHz,50.0 MHz,85.9 MHz,429.49 MHz,406.45 MHz,33.87 MHz,67.74 MHz,101.61 MHz,10.0 MHz,417.87 MHz,24.58 MHz,148.54 MHz,445.61 MHz,100.0 MHz
+dse1_2,50.0 MHz,50.0 MHz,50.0 MHz,85.9 MHz,429.49 MHz,406.45 MHz,33.87 MHz,67.74 MHz,101.61 MHz,10.0 MHz,417.87 MHz,24.58 MHz,148.54 MHz,445.61 MHz,100.0 MHz
+dse1_3,50.0 MHz,50.0 MHz,50.0 MHz,85.9 MHz,429.49 MHz,406.45 MHz,33.87 MHz,67.74 MHz,101.61 MHz,10.0 MHz,417.87 MHz,24.58 MHz,148.54 MHz,445.61 MHz,100.0 MHz
+dse1_4,50.0 MHz,50.0 MHz,50.0 MHz,85.9 MHz,429.49 MHz,406.45 MHz,33.87 MHz,67.74 MHz,101.61 MHz,10.0 MHz,417.87 MHz,24.58 MHz,148.54 MHz,445.61 MHz,100.0 MHz
+dse1_5,50.0 MHz,50.0 MHz,50.0 MHz,85.9 MHz,429.49 MHz,406.45 MHz,33.87 MHz,67.74 MHz,101.61 MHz,10.0 MHz,417.87 MHz,24.58 MHz,148.54 MHz,445.61 MHz,100.0 MHz
+dse1_6,50.0 MHz,50.0 MHz,50.0 MHz,85.9 MHz,429.49 MHz,406.45 MHz,33.87 MHz,67.74 MHz,101.61 MHz,10.0 MHz,417.87 MHz,24.58 MHz,148.54 MHz,445.61 MHz,100.0 MHz
+dse1_7,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data
+dse1_8,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data
+dse1_9,50.0 MHz,50.0 MHz,50.0 MHz,85.9 MHz,429.49 MHz,406.45 MHz,33.87 MHz,67.74 MHz,101.61 MHz,10.0 MHz,417.87 MHz,24.58 MHz,148.54 MHz,445.61 MHz,100.0 MHz
+dse1_10,50.0 MHz,50.0 MHz,50.0 MHz,85.9 MHz,429.49 MHz,406.45 MHz,33.87 MHz,67.74 MHz,101.61 MHz,10.0 MHz,417.87 MHz,24.58 MHz,148.54 MHz,445.61 MHz,100.0 MHz
+dse1_base,50.0 MHz,50.0 MHz,50.0 MHz,85.9 MHz,429.49 MHz,406.45 MHz,33.87 MHz,67.74 MHz,101.61 MHz,10.0 MHz,417.87 MHz,24.58 MHz,148.54 MHz,445.61 MHz,100.0 MHz

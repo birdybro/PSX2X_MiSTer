@@ -1,0 +1,13 @@
+f(MAX) Summary
+Exploration Point,FPGA_CLK1_50,FPGA_CLK2_50,emu|pll2|pll2_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk,emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk,emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk,emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk,pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk,pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk,f(MAX) Geomean
+dse1_1,82.0 MHz,66.9 MHz,94.74 MHz,48.91 MHz,67.39 MHz,109.0 MHz,36.59 MHz,150.69 MHz,75.263 MHz
+dse1_2,75.67 MHz,69.45 MHz,95.03 MHz,40.13 MHz,49.41 MHz,81.39 MHz,36.11 MHz,142.76 MHz,67.192 MHz
+dse1_3,77.33 MHz,67.4 MHz,89.25 MHz,45.08 MHz,63.94 MHz,110.39 MHz,35.22 MHz,142.86 MHz,72.277 MHz
+dse1_4,81.49 MHz,65.14 MHz,91.93 MHz,47.48 MHz,53.91 MHz,105.27 MHz,37.55 MHz,143.16 MHz,71.807 MHz
+dse1_5,81.23 MHz,60.62 MHz,90.69 MHz,42.38 MHz,58.8 MHz,86.41 MHz,37.74 MHz,139.82 MHz,68.892 MHz
+dse1_6,75.83 MHz,66.92 MHz,90.43 MHz,46.81 MHz,59.89 MHz,112.18 MHz,38.95 MHz,141.36 MHz,72.865 MHz
+dse1_7,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data
+dse1_8,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data,No Data
+dse1_9,70.16 MHz,68.28 MHz,96.52 MHz,44.32 MHz,63.94 MHz,116.12 MHz,35.42 MHz,142.71 MHz,72.568 MHz
+dse1_10,77.34 MHz,69.09 MHz,96.58 MHz,45.97 MHz,67.01 MHz,116.39 MHz,35.85 MHz,147.47 MHz,74.783 MHz
+dse1_base,77.33 MHz,67.4 MHz,89.25 MHz,45.08 MHz,63.94 MHz,110.39 MHz,35.22 MHz,142.86 MHz,72.277 MHz
